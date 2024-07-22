@@ -1,4 +1,4 @@
-package com.example.bitamin;
+package com.saessakmaeul.bitamin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
