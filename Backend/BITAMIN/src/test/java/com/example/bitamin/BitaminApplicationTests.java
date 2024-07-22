@@ -1,13 +1,13 @@
-package com.example.vitamin;
+package com.example.bitamin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class VitaminApplicationTests {
+class BitaminApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }

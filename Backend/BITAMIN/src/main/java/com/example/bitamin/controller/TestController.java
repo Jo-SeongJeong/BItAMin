@@ -1,4 +1,4 @@
-package com.example.vitamin.test.controller;
+package com.example.bitamin.controller;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
