@@ -1,9 +1,11 @@
 package com.saessakmaeul.bitamin.consultations.dto.request;
 
 import com.saessakmaeul.bitamin.consultations.Entity.SerchCondition;
-import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
-@Data
+@AllArgsConstructor
+@Getter
 public class SelectAllResquest {
     private int page;
     private int size;
