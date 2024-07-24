@@ -1,20 +1,3 @@
-package com.saessakmaeul.bitamin.consultations.dto.response;
-
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-
-import java.time.LocalDate;
-
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
-@Getter
-public class ParticipantResponse {
-    private Long id;
-    private Long memberId;
-    private String memberNickname;
-    private Long consultationId;
-    private LocalDate consultationDate;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c3f12284401b437ccd41b755bf0c8233e992d82ba0ccedaffebb86948a4b400
+size 517
