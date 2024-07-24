@@ -1,4 +1,4 @@
-package com.saessakmaeul.bitamin.token;
+package com.saessakmaeul.bitamin.member.dto.response;
 
 import lombok.AccessLevel;
 import lombok.Getter;
