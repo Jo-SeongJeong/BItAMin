@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 public class JoinRoomRequest {
-    private Long id;
+//    private Long id;
     private LocalDateTime startTime;
 
     private Long memberId;
