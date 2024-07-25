@@ -9,10 +9,9 @@ import java.time.LocalDate;
 @Getter
 public class MessageSimpleResponse {
     private long id;
-    private String senderNickname;
+    private String nickname;
     private String category;
     private String title;
     private LocalDate sendDate;
-    private LocalDate counselingDate;
-    private boolean isRead;
+    private Boolean isRead;
 }
