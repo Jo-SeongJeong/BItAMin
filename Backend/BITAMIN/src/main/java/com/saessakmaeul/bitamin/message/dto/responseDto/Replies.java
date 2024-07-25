@@ -8,11 +8,10 @@ import java.time.LocalDateTime;
 
 @Builder
 @Getter
-public class MessageSimpleResponse {
+public class Replies {
     private long id;
-    private String nickname;
-    private String category;
-    private String title;
-    private LocalDateTime sendDate;
+    private String memberNickName;
+    private String content;
     private Boolean isRead;
+    private LocalDateTime sendDate;
 }
