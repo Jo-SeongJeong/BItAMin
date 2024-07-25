@@ -7,5 +7,5 @@ import java.util.List;
 
 public interface HealthReportService {
     HealthReportResponseDTO saveHealthReport(HealthReportRequestDTO healthReportRequestDTO, Long userId);
-
+    List<HealthReportResponseDTO> getHealthReportsByUserId(Long userId);
 }
