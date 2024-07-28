@@ -3,6 +3,7 @@ package com.saessakmaeul.bitamin.member.dto.request;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.web.multipart.MultipartFile;
 
 import java.util.Date;
 
@@ -16,4 +17,5 @@ public class MemberUpdateRequestDTO {
     private Date birthday;
     private String profileKey;
     private String profileUrl;
+    private MultipartFile profileImage;
 }
