@@ -8,7 +8,7 @@ public class ComplaintRegistRequest {
 
     private int category;
 
-    private int content;
+    private String content;
 
     private int type;
 }
