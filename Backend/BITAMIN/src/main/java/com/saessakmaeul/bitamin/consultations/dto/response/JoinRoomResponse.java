@@ -1,3 +1,17 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:820fd1d20995ab2a9d2c1219dbe1e94f9f7fd1a01319bcc837f3fde6d9778608
-size 621
+package com.saessakmaeul.bitamin.consultations.dto.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+public class JoinRoomResponse {
+    private Long id;
+}

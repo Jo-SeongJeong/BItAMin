@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
-public class FindByIdResponse {
+public class findChatingResponse {
     private Long id;
     private String content;
     private LocalDateTime sendTime;
