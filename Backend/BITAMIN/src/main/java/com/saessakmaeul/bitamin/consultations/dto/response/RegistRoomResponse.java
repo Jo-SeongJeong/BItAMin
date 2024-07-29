@@ -14,4 +14,6 @@ import java.util.List;
 @Getter
 public class RegistRoomResponse {
     private Long id;
+    private Boolean isPrivated;
+    private String password;
 }
