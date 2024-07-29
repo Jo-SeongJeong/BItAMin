@@ -13,6 +13,7 @@ import java.time.LocalDateTime;
 public class JoinRoomRequest {
     private Long id;
     private LocalDateTime startTime;
+    private String password;
 
     private Long memberId;
     private String memberNickname;
