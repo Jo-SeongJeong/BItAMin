@@ -1,13 +1,3 @@
-package com.saessakmaeul.bitamin.member.service;
-
-import com.saessakmaeul.bitamin.member.dto.response.MemberResponseDTO;
-import com.saessakmaeul.bitamin.member.entity.Member;
-
-import java.util.List;
-import java.util.Optional;
-
-public interface MemberService {
-    Long register(MemberResponseDTO memberDTO);
-    Optional<Member> getMember(String email);
-    List<MemberResponseDTO> getMemberList();
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2a1ed8c5d360e323773a3a5fbe4eeadece195a024f271924f30478d5117639ea
+size 998
