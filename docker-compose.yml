@@ -1,0 +1,16 @@
+services:
+  spring:
+    container_name: spring
+    image: spring-app
+    networks:
+      -  app-network
+
+  react:
+    container_name: react
+    image: react-app
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    external: true
