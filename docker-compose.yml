@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   react:
-    container_name: react
+    container_name: react-app
     image: react-app
     networks:
       - app-network
