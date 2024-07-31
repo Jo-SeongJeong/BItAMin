@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 
@@ -14,6 +15,8 @@ import java.util.List;
 @Getter
 public class RegistRoomResponse {
     private Long id;
+    private LocalDateTime startTime;
     private Boolean isPrivated;
     private String password;
+    private String sessionId;
 }
