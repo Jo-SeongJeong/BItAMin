@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2afb54cbba3b10f8cc7b85e687182d7f868fa208f09907ab4f041f8edaaa2c9c
-size 622
+package com.saessakmaeul.bitamin.consultations.dto.response;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.util.List;
+
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+public class RegistRoomResponse {
+    private Long id;
+    private LocalDateTime startTime;
+    private Boolean isPrivated;
+    private String password;
+    private String sessionId;
+}

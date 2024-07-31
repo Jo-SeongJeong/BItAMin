@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:96d9c791e49cc119fc1ec72a5a38477f8d4a787176ca106de2d6472b5c68da0d
-size 622
+package com.saessakmaeul.bitamin.consultations.dto.response;
+
+import lombok.*;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+public class JoinRandomResponse {
+    private Long id;
+    private String token;
+}
