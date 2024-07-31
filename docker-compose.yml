@@ -1,10 +1,3 @@
-services:
-  spring:
-    container_name: spring
-    image: spring-app
-    networks:
-      -  app-network
-
-networks:
-  app-network:
-    external: true
+version https://git-lfs.github.com/spec/v1
+oid sha256:356140e0e7244844ea79f53ea4ce70602eabe940ecef56129e320f2571eac94e
+size 660
