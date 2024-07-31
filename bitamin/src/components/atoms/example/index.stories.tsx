@@ -1,4 +1,4 @@
-import { StoryObj, Meta } from '@/storybook/react/*'
+import { StoryObj, Meta } from '@storybook/react' // 경로 수정
 import { Button } from '.'
 
 const meta: Meta<typeof Button> = {
@@ -23,7 +23,7 @@ export const RedButton: Story = {
   },
 }
 
-export const BuleButton: Story = {
+export const BlueButton: Story = {
   args: {
     label: '추가',
     color: '#304FFE',
