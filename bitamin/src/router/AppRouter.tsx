@@ -1,12 +1,12 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import HomePage from '../components/pages/HomePage'
+import HealthUpPage from '../pages/HealthUpPage'
 
 const AppRouter: React.FC = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/healthUp" element={<HealthUpPage />} />
       </Routes>
     </Router>
   )
