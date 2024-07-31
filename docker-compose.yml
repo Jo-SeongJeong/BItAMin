@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  spring:
+  react:
     container_name: react
     image: react-app
     networks:
