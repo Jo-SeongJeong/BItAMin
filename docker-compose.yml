@@ -6,6 +6,20 @@ services:
     image: react-app
     networks:
       - app-network
+  nginx:
+    container_name: nginx
+    image: nginx:latest
+    volumes:
+      - /etc/nginx/templates:/etc/nginx/templates 
+      - /etc/letsencrypt:/etc/letsencrypt 
+    ports:
+      - "80:80" 
+      - "443:443" 
+    networks:
+      - app-network
+    depends_on:
+      - react
+      - spring
 
 networks:
   app-network:
