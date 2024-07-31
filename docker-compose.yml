@@ -19,7 +19,6 @@ services:
       - app-network
     depends_on:
       - react
-      - spring
 
 networks:
   app-network:
