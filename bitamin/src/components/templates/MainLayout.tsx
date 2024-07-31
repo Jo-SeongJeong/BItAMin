@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { ReactNode } from 'react'
 import Header from '../organisms/Header'
 
-const MainLayout: React.FC = ({ children }) => {
+interface MainLayoutProps {
+  children: ReactNode
+}
+
+const MainLayout: React.FC<MainLayoutProps> = ({ children }) => {
   return (
     <div>
       <Header />
