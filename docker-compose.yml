@@ -1,3 +1,12 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c356c858ae25acae518b52f35d4a79852b033e24dc2f303d1dd44296b8a7d1de
-size 570
+version: '3.8'
+
+services:
+  spring:
+    container_name: spring
+    image: spring-app
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    external: true
