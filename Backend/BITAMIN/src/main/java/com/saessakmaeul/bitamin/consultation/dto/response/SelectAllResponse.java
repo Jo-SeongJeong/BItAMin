@@ -2,7 +2,6 @@ package com.saessakmaeul.bitamin.consultation.dto.response;
 
 import lombok.*;
 
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Builder
