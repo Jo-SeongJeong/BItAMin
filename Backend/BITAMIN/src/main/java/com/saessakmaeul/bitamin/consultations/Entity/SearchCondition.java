@@ -1,6 +1,6 @@
 package com.saessakmaeul.bitamin.consultations.Entity;
 
-public enum SerchCondition {
+public enum SearchCondition {
     전체,
     음악,
     미술,
@@ -9,9 +9,9 @@ public enum SerchCondition {
     대화,
     비밀방;
 
-    public static SerchCondition fromString(String value) {
+    public static SearchCondition fromString(String value) {
         try {
-            return SerchCondition.valueOf(value);
+            return SearchCondition.valueOf(value);
         } catch (IllegalArgumentException e) {
             throw new IllegalArgumentException(value + " is not a valid serch condition");
         }
