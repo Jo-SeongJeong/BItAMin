@@ -1,21 +1,3 @@
-package com.saessakmaeul.bitamin.consultation.dto.request;
-
-import com.saessakmaeul.bitamin.consultation.Entity.SearchCondition;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-
-import java.time.LocalDate;
-
-@AllArgsConstructor
-@Getter
-@Setter
-public class JoinRandomRequest {
-    private Long id;
-    private SearchCondition type;
-    private String sessionId;
-
-    private Long memberId;
-    private String memberNickname;
-    private LocalDate consultationDate;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5d1f09012f8524fb793a3cc4529f72db6557ccc466cce1691e9fb43ab3cb670b
+size 528

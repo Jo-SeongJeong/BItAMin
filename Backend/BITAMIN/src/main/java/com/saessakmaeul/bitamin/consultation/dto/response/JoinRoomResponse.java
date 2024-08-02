@@ -7,6 +7,7 @@ import lombok.*;
 @NoArgsConstructor
 @Getter
 @Setter
+@EqualsAndHashCode
 public class JoinRoomResponse {
     private Long consultationId;
     private String token;

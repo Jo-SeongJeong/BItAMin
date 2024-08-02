@@ -1,9 +1,6 @@
 package com.saessakmaeul.bitamin.consultation.dto.response;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import java.time.LocalDateTime;
 
@@ -11,6 +8,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
+@EqualsAndHashCode
 public class RegistRoomResponse {
     private Long id;
     private Boolean isPrivated;
