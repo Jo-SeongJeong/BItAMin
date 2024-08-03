@@ -3,6 +3,7 @@ package com.saessakmaeul.bitamin.member.dto.response;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 @Getter
@@ -10,6 +11,6 @@ import java.util.Date;
 public class HealthReportResponseDTO {
     private Long id;
     private int checkupScore;
-    private Date checkupDate;
+    private LocalDate checkupDate;
     private Long memberId;
 }
