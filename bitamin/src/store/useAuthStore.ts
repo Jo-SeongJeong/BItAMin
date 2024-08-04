@@ -1,5 +1,5 @@
 // src/store/useAuthStore.ts
-import create from 'zustand'
+import { create } from 'zustand'
 
 interface AuthState {
   accessToken: string | null
