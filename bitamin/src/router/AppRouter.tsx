@@ -1,17 +1,3 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import Ex from 'stories/pages/etc/Ex'
-import ExLogin from 'stories/pages/account/ExLogin'
-
-const AppRouter: React.FC = () => {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<Ex />} />
-        <Route path="/login" element={<ExLogin />} />
-      </Routes>
-    </Router>
-  )
-}
-
-export default AppRouter
+version https://git-lfs.github.com/spec/v1
+oid sha256:0f1204f237d09e0a5d322409588825b85f4f20b24d21a7f49f44b0d112b29429
+size 2090
