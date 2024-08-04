@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '../atoms/Button'
+import Button from 'stories/atoms/Button'
 
 const Header: React.FC = () => {
   return (

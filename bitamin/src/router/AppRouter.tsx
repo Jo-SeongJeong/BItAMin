@@ -1,12 +1,14 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import HomePage from '../components/pages/HomePage'
+import Ex from 'stories/pages/etc/Ex'
+import ExLogin from 'stories/pages/account/ExLogin'
 
 const AppRouter: React.FC = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/ex" element={<Ex />} />
+        <Route path="/login" element={<ExLogin />} />
       </Routes>
     </Router>
   )
