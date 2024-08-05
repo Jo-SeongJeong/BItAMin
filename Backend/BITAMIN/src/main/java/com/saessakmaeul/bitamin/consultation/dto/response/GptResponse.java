@@ -6,5 +6,6 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class GptResponse {
-    String response;
+    String role;
+    String content;
 }
