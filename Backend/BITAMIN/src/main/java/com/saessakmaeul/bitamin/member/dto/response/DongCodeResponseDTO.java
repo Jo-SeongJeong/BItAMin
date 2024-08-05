@@ -11,7 +11,8 @@ public class DongCodeResponseDTO {
     private String sidoName;
     private String gugunName;
     private String dongName;
-    private String locName;
+    private String xCoordinate;
+    private String yCoordinate;
     private String lat;
     private String lng;
 }
