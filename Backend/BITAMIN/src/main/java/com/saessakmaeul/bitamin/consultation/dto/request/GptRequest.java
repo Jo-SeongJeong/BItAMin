@@ -2,7 +2,7 @@ package com.saessakmaeul.bitamin.consultation.dto.request;
 import lombok.*;
 
 @Data
-public class ChatRequestMsg {
+public class GptRequest {
 
     private String role;
 
