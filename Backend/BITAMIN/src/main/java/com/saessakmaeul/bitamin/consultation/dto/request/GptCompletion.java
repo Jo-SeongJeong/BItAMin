@@ -8,9 +8,9 @@ import java.util.List;
  */
 
 @Data
-public class ChatCompletion {
+public class GptCompletion {
     private String model;
 
-    private List<ChatRequestMsg> messages;
+    private List<GptRequest> messages;
     
 }
