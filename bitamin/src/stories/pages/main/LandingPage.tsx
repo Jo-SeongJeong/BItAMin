@@ -1,7 +1,6 @@
-import { FunctionComponent } from 'react'
 import styles from 'styles/main/LandingPage.module.css'
 
-const LandingPage: FunctionComponent = () => {
+const LandingPage: React.FC = () => {
   return (
     <div className={styles.div}>
       <div className={styles.betterTomorrowBetter}>
