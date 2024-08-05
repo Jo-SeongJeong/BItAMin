@@ -7,7 +7,8 @@ public enum SearchCondition {
     영화,
     독서,
     대화,
-    비밀방;
+    비밀방,
+    요약;
 
     public static SearchCondition fromString(String value) {
         try {
