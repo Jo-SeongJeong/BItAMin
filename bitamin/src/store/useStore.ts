@@ -1,4 +1,5 @@
-import create from 'zustand'
+// src/store/useStore.ts
+import { create } from 'zustand'
 
 interface ExampleState {
   count: number
