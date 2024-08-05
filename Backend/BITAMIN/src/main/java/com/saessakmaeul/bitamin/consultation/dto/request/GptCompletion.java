@@ -10,7 +10,6 @@ import java.util.List;
 @Data
 public class GptCompletion {
     private String model;
-
     private List<GptRequest> messages;
     
 }
