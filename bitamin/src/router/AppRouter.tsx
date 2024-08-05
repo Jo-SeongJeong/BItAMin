@@ -1,15 +1,3 @@
-import React from 'react'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import HomePage from '../components/pages/HomePage'
-
-const AppRouter: React.FC = () => {
-  return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-      </Routes>
-    </Router>
-  )
-}
-
-export default AppRouter
+version https://git-lfs.github.com/spec/v1
+oid sha256:f05d6b3d3cbffe3d34b296e4e2a02dee3e39a3b6a392d1dcf67908a349a9e543
+size 2556
