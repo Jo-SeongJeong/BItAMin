@@ -3,10 +3,10 @@
   "tmVersion": "0.8.6",
   "packageVersion": "0.8.6",
   "packageName": "@teachablemachine/pose",
-  "timeStamp": "2024-08-03T14:57:06.994Z",
+  "timeStamp": "2024-08-05T03:08:08.452Z",
   "userMetadata": {},
   "modelName": "my-pose-model",
-  "labels": ["준비자세", "어깨펴기"],
+  "labels": ["기본 자세", "고양이", "아빠다리"],
   "modelSettings": {
     "posenet": {
       "architecture": "MobileNetV1",
