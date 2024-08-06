@@ -1,16 +1,3 @@
-// src/store/useAuthStore.ts
-import { create } from 'zustand'
-
-interface AuthState {
-  accessToken: string | null
-  setAccessToken: (token: string) => void
-  clearAuth: () => void
-}
-
-const useAuthStore = create<AuthState>((set) => ({
-  accessToken: null,
-  setAccessToken: (token) => set({ accessToken: token }),
-  clearAuth: () => set({ accessToken: null }),
-}))
-
-export default useAuthStore
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f64de3a7a1db1f83d98bac2b2b77079f6723bb38e43ffc692fde03d14eda14e
+size 809
