@@ -6,6 +6,8 @@ services:
     image: react-app
     networks:
       - app-network
+    volumes:
+      - /etc/nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
 
 networks:
   app-network:
