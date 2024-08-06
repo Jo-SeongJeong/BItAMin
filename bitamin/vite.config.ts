@@ -4,4 +4,13 @@ import tsconfigPaths from 'vite-tsconfig-paths'
 
 export default defineConfig({
   plugins: [react(), tsconfigPaths()],
+  server: {
+    proxy: {
+      '/api': {
+        target: 'https://i11b105.p.ssafy.io', // 백엔드 서버의 주소
+        changeOrigin: true,
+        secure: false,
+      },
+    },
+  },
 })
