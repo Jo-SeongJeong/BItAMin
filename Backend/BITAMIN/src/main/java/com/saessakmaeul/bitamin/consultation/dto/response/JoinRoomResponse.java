@@ -10,6 +10,7 @@ import lombok.*;
 @EqualsAndHashCode
 public class JoinRoomResponse {
     private Long consultationId;
+    private String sessionId;
     private String token;
     private Long id;
     private Long memberId;
