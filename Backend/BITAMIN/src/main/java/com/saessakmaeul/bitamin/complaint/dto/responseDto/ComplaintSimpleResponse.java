@@ -15,4 +15,6 @@ public class ComplaintSimpleResponse {
     private  String respondentNickname;
 
     private LocalDateTime sendDate;
+
+    private int type;
 }
