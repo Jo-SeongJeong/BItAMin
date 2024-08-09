@@ -1,14 +1,3 @@
-package com.saessakmaeul.bitamin.member.repository;
-
-import com.saessakmaeul.bitamin.member.entity.Member;
-import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
-import org.springframework.data.repository.query.Param;
-
-import java.util.Optional;
-
-public interface MemberRepository extends JpaRepository<Member, Long> {
-    Optional<Member> findByEmail(String email);
-    int countByEmail(String email);
-    int countByNickname(String nickname);
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:25eb2cad93edeb17c6fef4a4c3b15a6b587ccec65bcf313695013bd5c25ce207
+size 583
