@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   spring:
-    container_name: spring
+    container_name: release
     image: spring-app
     environment:
       - TZ=Asia/Seoul
