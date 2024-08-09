@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e24e612cd2b1b5225fe78818db3f33bc78a702891af63b09424d716bfa89cbef
-size 793
+package com.saessakmaeul.bitamin.member.repository;
+
+import com.saessakmaeul.bitamin.member.entity.HealthReport;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.List;
+
+public interface HealthReportRepository extends JpaRepository<HealthReport, Long> {
+    List<HealthReport> findByMemberId(Long memberId);
+}
