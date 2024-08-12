@@ -5,6 +5,6 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class HealthReportRequestDTO {
+public class HealthReportRequest {
     private int checkupScore;
 }

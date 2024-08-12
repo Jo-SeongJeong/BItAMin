@@ -7,7 +7,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Builder
-public class DongCodeResponseDTO {
+public class DongCodeResponse {
     private String sidoName;
     private String gugunName;
     private String dongName;
