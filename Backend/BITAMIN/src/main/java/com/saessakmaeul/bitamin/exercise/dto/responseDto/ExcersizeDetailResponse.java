@@ -18,7 +18,5 @@ public class ExcersizeDetailResponse {
 
     private int level;
 
-    private String exerciseKey;
-
     private String exerciseUrl;
 }
