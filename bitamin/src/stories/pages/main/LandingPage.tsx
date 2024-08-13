@@ -1,3 +1,16 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d540cf25bc2faae462144da2ce3f12801b91764afa8bb069f9ad28f3234ba3e3
-size 1270
+import styles from 'styles/main/LandingPage.module.css'
+
+const LandingPage: React.FC = () => {
+  return (
+    <div className={styles.div}>
+      <div className={styles.betterTomorrowBetter}>
+        Better tomorrow, Better Mind
+      </div>
+      <div className={styles.bitamim}>BItAMim은 당신을 응원합니다</div>
+      <div className={styles.child} />
+      <div className={styles.item} />
+    </div>
+  )
+}
+
+export default LandingPage
