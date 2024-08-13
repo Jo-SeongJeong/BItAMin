@@ -14,4 +14,5 @@ public class Replies {
     private String content;
     private Boolean isRead;
     private LocalDateTime sendDate;
+    private String url;
 }
