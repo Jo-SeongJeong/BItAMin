@@ -15,4 +15,5 @@ public class MessageSimpleResponse {
     private String title;
     private LocalDateTime sendDate;
     private Boolean isRead;
+    private String url;
 }
