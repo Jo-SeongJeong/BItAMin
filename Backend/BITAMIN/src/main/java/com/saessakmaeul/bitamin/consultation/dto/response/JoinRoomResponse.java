@@ -15,6 +15,5 @@ public class JoinRoomResponse {
     private Long id;
     private Long memberId;
     private String memberNickname;
-    private String profileKey;
     private String profileUrl;
 }
