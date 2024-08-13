@@ -5,12 +5,13 @@ export const fetchExercise = async (id: number) => {
   return response.data
 }
 
-export const fetchExcerciseModel = async (level: number) => {
+// 종류 level(1:스트레칭, 2:요가)
+export const fetchExerciseModel = async (level: number) => {
   const response = await axiosInstance.get(`/exercises/model/${level}`)
   return response.data
 }
 
 export default {
   fetchExercise,
-  fetchExcerciseModel,
+  fetchExerciseModel,
 }
