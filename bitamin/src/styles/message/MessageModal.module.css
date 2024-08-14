@@ -1,0 +1,23 @@
+.messageList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.messageInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.hoveredItem {
+  background-color: #ffa500;
+}
+
+.deleteButton {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
