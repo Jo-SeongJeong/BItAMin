@@ -1,16 +1,3 @@
-import create from 'zustand'
-
-interface PhraseState {
-  phraseContent: string
-  phraseId: string | null
-  setPhrase: (content: string, id: string) => void
-}
-
-const usePhraseStore = create<PhraseState>((set) => ({
-  phraseContent: '',
-  phraseId: null,
-  setPhrase: (content: string, id: string) =>
-    set({ phraseContent: content, phraseId: id }),
-}))
-
-export default usePhraseStore
+version https://git-lfs.github.com/spec/v1
+oid sha256:9a1ac6834347c079c405a078876b7607dcc0ad7ffbe650b41b59525a635bd7c7
+size 2016
