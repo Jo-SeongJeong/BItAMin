@@ -13,4 +13,9 @@ export default defineConfig({
       },
     },
   },
+  resolve: {
+    alias: {
+      '@': '/src', // '@'을 src 디렉토리로 매핑
+    },
+  },
 })
