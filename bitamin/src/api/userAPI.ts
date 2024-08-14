@@ -1,12 +1,3 @@
-import axiosInstance from './axiosInstance'
-
-export const fetchUserInfo = async () => {
-  try {
-    const response = await axiosInstance.get('/members/get-member')
-    console.log('Response from /user/info:', response.data) // API 응답 로그 확인
-    return response.data
-  } catch (error) {
-    console.error('Failed to fetch user info:', error)
-    throw error
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:835a721883d153f95bcf6c07002f32ce7dc978077a9b2d643db55bd38c02a54a
+size 7299
