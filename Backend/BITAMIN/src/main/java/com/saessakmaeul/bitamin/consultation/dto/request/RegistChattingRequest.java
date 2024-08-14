@@ -7,7 +7,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class RegistChatingRequest {
+public class RegistChattingRequest {
     private Long consultationId;
     private Long memberId;
     private String memberNickname;
