@@ -1,14 +1,3 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
-  theme: {
-    extend: {
-      fontFamily: {
-        bagel: ['"Bagel Fat One"', 'cursive'],
-        nanum: ['"Nanum Gothic"', 'sans-serif'],
-        ownglyph: ['"Ownglyph ryuttung"', 'cursive'],
-      },
-    },
-  },
-  plugins: [],
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d5d0f77996bf6b26a783b462ace02bec7ee944d5ab621328b410bebfa3bbe22f
+size 844
