@@ -1,17 +1,3 @@
-import React from 'react'
-import Button from 'stories/atoms/Button'
-
-const Header: React.FC = () => {
-  return (
-    <header className="flex justify-between p-4 bg-gray-800 text-white">
-      <h1>My App</h1>
-      <Button
-        label="Sign In"
-        type="DEFAULT"
-        onClick={() => alert('Sign In clicked')}
-      />
-    </header>
-  )
-}
-
-export default Header
+version https://git-lfs.github.com/spec/v1
+oid sha256:77d756d913230ac6b5bbbdb9378e3ebe63a8a248fc9177c226e487b7dd7825b4
+size 9164
