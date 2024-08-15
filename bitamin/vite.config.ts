@@ -13,4 +13,5 @@ export default defineConfig({
       },
     },
   },
+  assetsInclude: ['**/*.ttf', '**/*.woff', '**/*.woff2', '**/*.eot'],
 })
