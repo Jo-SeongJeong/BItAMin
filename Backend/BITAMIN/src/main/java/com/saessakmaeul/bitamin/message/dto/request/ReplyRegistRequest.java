@@ -1,4 +1,4 @@
-package com.saessakmaeul.bitamin.message.dto.requestDto;
+package com.saessakmaeul.bitamin.message.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

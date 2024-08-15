@@ -1,9 +1,8 @@
-package com.saessakmaeul.bitamin.message.dto.responseDto;
+package com.saessakmaeul.bitamin.message.dto.response;
 
 import lombok.Builder;
 import lombok.Getter;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 
 @Builder
