@@ -13,5 +13,8 @@ export default defineConfig({
       },
     },
   },
+  define: {
+    global: 'globalThis',
+  },
   assetsInclude: ['**/*.ttf', '**/*.woff', '**/*.woff2', '**/*.eot'],
 })
