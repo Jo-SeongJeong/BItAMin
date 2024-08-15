@@ -1,4 +1,4 @@
-package com.saessakmaeul.bitamin.complaint.dto.requestDto;
+package com.saessakmaeul.bitamin.complaint.dto.request;
 
 import lombok.Builder;
 import lombok.Getter;

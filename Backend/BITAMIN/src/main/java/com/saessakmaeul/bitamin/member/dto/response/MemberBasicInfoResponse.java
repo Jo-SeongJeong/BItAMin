@@ -5,11 +5,11 @@ import lombok.Setter;
 
 @Getter
 @Setter
-public class MemberBasicInfo {
+public class MemberBasicInfoResponse {
     private Long id;
     private String nickname;
 
-    public MemberBasicInfo(Long id, String nickname) {
+    public MemberBasicInfoResponse(Long id, String nickname) {
         this.id = id;
         this.nickname = nickname;
     }

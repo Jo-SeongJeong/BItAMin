@@ -1,8 +1,7 @@
-package com.saessakmaeul.bitamin.message.dto.requestDto;
+package com.saessakmaeul.bitamin.message.dto.request;
 
 import lombok.Builder;
 import lombok.Getter;
-import lombok.Setter;
 
 import java.time.LocalDateTime;
 
