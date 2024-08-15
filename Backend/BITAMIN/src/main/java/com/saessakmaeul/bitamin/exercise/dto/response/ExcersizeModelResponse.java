@@ -1,6 +1,5 @@
-package com.saessakmaeul.bitamin.exercise.dto.responseDto;
+package com.saessakmaeul.bitamin.exercise.dto.response;
 
-import jakarta.persistence.Column;
 import lombok.Builder;
 import lombok.Getter;
 
