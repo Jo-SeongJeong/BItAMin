@@ -1,18 +1,3 @@
-import React from 'react'
-
-const HeaderComponent = ({ isPrivate, title }) => {
-  return (
-    <div className="flex justify-between items-center p-4 bg-gray-800 text-white">
-      <div className="flex items-center">
-        {isPrivate ? (
-          <span className="text-red-500 mr-2">🔒</span>
-        ) : (
-          <span className="text-green-500 mr-2">🔓</span>
-        )}
-        <span className="text-lg font-semibold">{title}</span>
-      </div>
-    </div>
-  )
-}
-
-export default HeaderComponent
+version https://git-lfs.github.com/spec/v1
+oid sha256:22a3296632d34374dece1288de70f5bbf388df5effd3553e8097f62fbf11ad06
+size 531
