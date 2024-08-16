@@ -1,0 +1,23 @@
+.Button {
+  position: absolute;
+  top: 336px;
+  left: 554px;
+  border-radius: 10px;
+  background-color: #fc7c4c;
+  width: 146px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 44px;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+}
+
+.Button_DEFALUT {
+  background-color: green;
+  color: white;
+}
