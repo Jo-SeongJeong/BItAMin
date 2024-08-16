@@ -1,3 +1,24 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6b9670663dd33a131d6f8b739820899dd9d8d34720155081c6c7ecb2e816dcea
-size 553
+package com.saessakmaeul.bitamin.consultation.dto.response;
+
+import lombok.*;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@EqualsAndHashCode
+public class ConsultationDetailResponse {
+    private Long id;
+    private String category;
+    private String title;
+    private Boolean isPrivated;
+    private String password;
+    private LocalDateTime startTime;
+    private LocalDateTime endTime;
+    private int currentParticipants;
+
+    private List<ParticipantResponse> participants;
+}

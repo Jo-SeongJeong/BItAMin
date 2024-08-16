@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c0454a08c7d71185d2c4cef0d8cc80e1a7cbb7ad57698a79ecb15c815c9185ac
-size 581
+package com.saessakmaeul.bitamin.member.dto.response;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.time.LocalDate;
+
+@Getter
+@Setter
+@Builder
+public class MemberResponse {
+    private String email;
+    private String password;
+    private String name;
+    private String nickname;
+    private String sidoName;
+    private String gugunName;
+    private String dongName;
+    private String xCoordinate;
+    private String yCoordinate;
+    private String lat;
+    private String lng;
+    private LocalDate birthday;
+    private String profileUrl;
+}

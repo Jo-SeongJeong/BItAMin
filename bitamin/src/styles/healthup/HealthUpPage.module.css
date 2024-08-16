@@ -1,3 +1,281 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:0bb34d9aaced13c4f9137d3772a169779405ae8df1bb2913e06f3e1e9d63491c
-size 6066
+/* 화면 뒤뒤 배경 */
+.up {
+  width: 100%;
+  position: relative;
+  background-color: #fffbfa;
+  height: 88.11vh;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.3vh;
+  color: #000;
+  font-family: Lato, sans-serif;
+}
+/* 운동 뜨는 뒤의 배경 */
+.upChild {
+  position: absolute;
+  /* top: 75px; */
+  /* left: calc(50% - 512px); */
+  background-color: rgba(252, 210, 179, 0.25);
+  width: 100%;
+  height: 96.11vh;
+}
+/* 운동 url 뜨는 네모 */
+.upItem {
+  position: absolute;
+  top: 17.19vh; /* 155px을 vh로 변경 */
+  left: 52.61vw; /* 957px을 vw로 변경 */
+  width: 40vw; /* 497px을 vw로 변경 */
+  height: 53.8vh; /* 457px을 vh로 변경 */
+  object-fit: cover;
+}
+/* 내 화면 들어오는 뒤 박스 */
+.rectangleParent {
+  position: absolute;
+  top: 17.19vh; /* 155px을 vh로 변경 */
+  left: 13.26vw; /* 208px을 vw로 변경 */
+  width: 46.57vw; /* 503px을 vw로 변경 */
+  height: 42.31vh; /* 457px을 vh로 변경 */
+  font-size: 2.78vh; /* 30px을 vh로 변경 */
+  font-family: NanumBarunpen, sans-serif;
+}
+/* 숫자 */
+.div {
+  position: absolute;
+  top: -9vh; /* -70px을 vh로 변경 */
+  left: 9.63vw; /* 50px을 vw로 변경 */
+  line-height: 11.43vh; /* 82.3px을 vh로 변경 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16.85vw; /* 182px을 vw로 변경 */
+  height: 5.56vh; /* 40px을 vh로 변경 */
+}
+
+.rectangleDiv {
+  position: absolute;
+  top: 78vh; /* 720px을 vh로 변경 */
+  background-color: #fff;
+  width: 100%;
+  height: 10vh; /* 114px을 vh로 변경 */
+}
+
+/* 시작하기, 운동중 글씨 */
+.rectangleGroup {
+  position: absolute;
+  top: 81.6vh; /* 738px을 vh로 변경 */
+  left: 86.46vw; /* 1409px을 vw로 변경 */
+  width: 6vw; /* 95px을 vw로 변경 */
+  height: 3.47vh; /* 25px을 vh로 변경 */
+  cursor: pointer;
+  color: #fff;
+}
+/* 시작하기, 운동중 버튼  */
+.groupItem {
+  position: absolute;
+  top: 0px;
+  left: 0.5vh;
+  border-radius: 5px;
+  background-color: #ff713c;
+  width: 6vw; /* 95px을 vw로 변경 */
+  height: 3.5vh; /* 28px을 vh로 변경 */
+}
+
+.b {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 22.5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 3.6vw; /* 45px을 vw로 변경 */
+  height: 3.04vh; /* 23.3px을 vh로 변경 */
+}
+/* 운동 이름 */
+.b1 {
+  position: absolute;
+  top: 10.42vh; /* 80px을 vh로 변경 */
+  left: 68.48vw; /* 1150px을 vw로 변경 */
+  font-size: 2.59vh; /* 28px을 vh로 변경 */
+  color: #ff713c;
+  font-family: NanumBarunpen, sans-serif;
+}
+
+.div1 {
+  position: absolute;
+  top: 94.27vh; /* 723px을 vh로 변경 */
+  left: 51.11vw; /* 552px을 vw로 변경 */
+  font-weight: 500;
+  color: #777;
+  background-color: #000;
+}
+/* 첫번째 운동 버튼 */
+.div2 {
+  position: absolute;
+  top: 81.5vh; /* 738px을 vh로 변경 */
+  left: 25vw; /* 332px을 vw로 변경 */
+  font-weight: 700;
+  font-size: large;
+  color: #ff713c;
+  /* background-color: #ff713c; */
+  cursor: pointer;
+}
+.div22 {
+  position: absolute;
+  top: 81.5vh;
+  left: 45.8vw; /* 732px을 vw로 변경 */
+  font-weight: 700;
+  font-size: large;
+  color: #ff713c;
+  cursor: pointer;
+}
+.div222 {
+  position: absolute;
+  top: 81.5vh;
+  left: 65vw;
+  font-weight: 700;
+  font-size: large;
+  color: #ff713c;
+  cursor: pointer;
+}
+
+.child {
+  width: 4.63vw;
+  position: relative;
+  border-radius: 2px;
+  background-color: rgba(252, 124, 76, 0.74);
+  height: 0.28vh;
+  opacity: 0;
+}
+
+.group {
+  width: 6.76vw;
+  height: 3.1vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.upWrapper {
+  width: 2.5vw;
+  height: 4.69vh;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: -0.37vw;
+  color: #ff713c;
+  font-family: 'Ownglyph ryuttung', sans-serif;
+}
+
+.parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 7.41vw;
+  color: #777;
+}
+
+.personcircleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.65vw;
+}
+
+.div11 {
+  width: 11.48vw; /* 124px을 vw로 변경 */
+  height: 12.78vh; /* 98px을 vh로 변경 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+}
+
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.56vw;
+}
+
+.frameGroup {
+  width: 6.67vw; /* 72px을 vw로 변경 */
+  height: 2.63vh; /* 19px을 vh로 변경 */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.37vw; /* 4px을 vw로 변경 */
+}
+
+.frame {
+  height: 3.47vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.div12 {
+  width: 4.91vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 3.33vh;
+  flex-shrink: 0;
+}
+/* 운동 설명 */
+.div13 {
+  position: absolute;
+  top: 73.55vh;
+  left: 52.22vw;
+  font-family: NanumBarunpen, sans-serif;
+  text-align: left;
+  font-size: larger;
+  width: 40vw;
+}
+
+.p {
+  margin: 0;
+}
+/* 하루홈트 글씨 */
+.div14 {
+  position: absolute;
+  /* top: 77px; */
+  left: 3.3vw;
+  font-size: 2.2vh;
+  font-family: NanumBarunpen, sans-serif;
+}
+.canvasContainer {
+  top: 111.11vh; /* 800px을 vh로 변경 */
+  width: 46vw; /* 497px을 vw로 변경 */
+  height: 42.31vh; /* 457px을 vh로 변경 */
+}
+/* 하루홈트 글씨 박스 */
+.upChild2 {
+  position: absolute;
+  /* top: 25px; */
+  left: 0px;
+  background-color: #fff;
+  border-top: 0.05vh solid #ff713c; /* 0.5px을 vh로 변경 */
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.68vh; /* 29px을 vh로 변경 */
+}
+/* 하루홈트 밑줄 */
+.upChild3 {
+  position: absolute;
+  top: 2vh; /* 20px을 vh로 변경 */
+  left: 2.35vw; /* 34px을 vw로 변경 */
+  border-radius: 2px;
+  background-color: rgba(252, 124, 76, 0.72);
+  width: 6vw; /* 77px을 vw로 변경 */
+  height: 0.97vh; /* 7px을 vh로 변경 */
+}

@@ -1,3 +1,45 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9febac878938de707668331cb232267a38867c9c1182ee3cf72440e39785be36
-size 839
+package com.saessakmaeul.bitamin.consultation.Entity;
+
+import jakarta.persistence.*;
+import lombok.*;
+
+import java.time.LocalDateTime;
+
+@Entity
+@Table(name = "consultation")
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+public class Consultation {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column
+    private Long id;
+
+    @Column
+    private String category;
+
+    @Column
+    private String title;
+
+    @Column(name = "is_privated")
+    private Boolean isPrivated;
+
+    @Column
+    private String password;
+
+    @Column(name = "start_time")
+    private LocalDateTime startTime;
+
+    @Column(name = "end_time")
+    private LocalDateTime endTime;
+
+    @Column(name = "current_participants")
+    private int currentParticipants;
+
+    @Column(name = "session_id")
+    private String sessionId;
+
+}

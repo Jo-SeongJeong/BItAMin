@@ -1,3 +1,34 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:21eea76292dc4c1bc42ab97c3314db74f6b93a18576e46464cb62a2a496d3eae
-size 841
+@font-face {
+  font-family: 'Nanum Gothic';
+  src: url('./NanumGothic-Regular.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* 
+@font-face {
+  font-family: 'Nanum Gothic Bold';
+  src: url('./NanumGothicBold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Ownglyph ryuttung';
+  src: url('./온글잎 류뚱체 (2).ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* @font-face {
+  font-family: 'Ownglyph_ryuttung-Rg';
+  src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2405-2@1.0/Ownglyph_ryuttung-Rg.woff2')
+    format('woff2');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+  font-family: 'Bagel Fat One';
+  src: url('./BagelFatOne-Regular.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

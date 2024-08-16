@@ -1,3 +1,28 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e8dbdea483648d09cb253b1c133ed2d3cde57324d5366b0d4c5162c8dbd8d9d5
-size 766
+package com.saessakmaeul.bitamin.mission.dto.response;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+import java.time.LocalDate;
+
+@NoArgsConstructor
+@Getter
+public class MemberMissionResponse {
+    private Long id;
+    private LocalDate completeDate;
+    private String imageUrl;
+    private String missionReview;
+    private Long missionId;
+    private Long userId;
+
+    @Builder
+    public MemberMissionResponse(Long id, LocalDate completeDate, String imageUrl, String missionReview, Long missionId, Long userId){
+        this.id = id;
+        this.completeDate = completeDate;
+        this.imageUrl = imageUrl;
+        this.missionReview = missionReview;
+        this.missionId = missionId;
+        this.userId = userId;
+    }
+}

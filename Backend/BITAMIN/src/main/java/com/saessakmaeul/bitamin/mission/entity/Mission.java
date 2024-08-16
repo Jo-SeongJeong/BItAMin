@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1067e109a474ce03a68c2b889dcf7d849de2d92efa9243774e242f5a6fa069cd
-size 578
+package com.saessakmaeul.bitamin.mission.entity;
+
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity
+@Table(name = "mission")
+@Getter
+@Setter
+public class Mission{
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private long id;
+
+    @Column(name = "mission_name", nullable = false)
+    private String missionName;
+
+    @Column(name = "mission_description", nullable = false)
+    private String missionDescription;
+
+    @Column(name = "mission_level", nullable = false)
+    private int missionLevel;
+}

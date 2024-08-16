@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:98245ea87f245614f6a39a1286ba56f6293d67830bb956af70e25153f5f95b7c
-size 598
+package com.saessakmaeul.bitamin.mission.dto.response;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@Getter
+public class MissionResponse {
+    private Long id;
+    private String missionName;
+    private String missionDescription;
+    private int missionLevel;
+
+    @Builder
+    public MissionResponse(Long id, String missionName, String missionDescription, int missionLevel) {
+        this.id = id;
+        this.missionName = missionName;
+        this.missionDescription = missionDescription;
+        this.missionLevel = missionLevel;
+    }
+}

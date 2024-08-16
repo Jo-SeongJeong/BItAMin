@@ -1,3 +1,52 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ae57c75ea741c1cee8f1dd639251bd1a7d1c09a5b47cd4230107c776b309e6ed
-size 1311
+import React, { Component } from 'react'
+import './StreamComponent.css'
+
+export default class OvVideoComponent extends Component {
+  constructor(props) {
+    super(props)
+    this.videoRef = React.createRef()
+  }
+
+  componentDidMount() {
+    if (this.props && this.props.user.streamManager && !!this.videoRef) {
+      console.log('PROPS: ', this.props)
+      this.props.user.getStreamManager().addVideoElement(this.videoRef.current)
+    }
+
+    if (
+      this.props &&
+      this.props.user.streamManager.session &&
+      this.props.user &&
+      !!this.videoRef
+    ) {
+      this.props.user.streamManager.session.on(
+        'signal:userChanged',
+        (event) => {
+          const data = JSON.parse(event.data)
+          if (data.isScreenShareActive !== undefined) {
+            this.props.user
+              .getStreamManager()
+              .addVideoElement(this.videoRef.current)
+          }
+        }
+      )
+    }
+  }
+
+  componentDidUpdate(props) {
+    if (props && !!this.videoRef) {
+      this.props.user.getStreamManager().addVideoElement(this.videoRef.current)
+    }
+  }
+
+  render() {
+    return (
+      <video
+        autoPlay={true}
+        id={'video-' + this.props.user.getStreamManager().stream.streamId}
+        ref={this.videoRef}
+        muted={this.props.mutedSound}
+      />
+    )
+  }
+}

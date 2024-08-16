@@ -1,3 +1,123 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:fdfb904af759fd5390626421f86b4da981d60abd72ea240429b6245776369ddb
-size 2369
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fadeOutBox {
+  animation: fadeout 3s forwards;
+  -moz-animation: fadeout 3s forwards; /* Firefox */
+  -webkit-animation: fadeout 3s forwards; /* Safari and Chrome */
+  -o-animation: fadeout 3s forwards; /* Opera */
+  animation-fill-mode: forwards;
+}
+
+.div {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #ff713c;
+  overflow: hidden;
+  text-align: left;
+  font-size: 1.25rem;
+  color: #000;
+  font-family: NanumBarunpen;
+}
+
+.betterTomorrowBetter {
+  position: absolute;
+  top: calc(50% + 63px); /* 기존 값 유지 */
+  left: calc(50% - 110px);
+  font-size: 2.25rem; /* 필요시 폰트 크기 조정 */
+  color: #fff;
+}
+
+.bitamim {
+  position: absolute;
+  top: calc(50% - 63px); /* 기존 값 유지 */
+  left: calc(50% - 375px);
+  font-size: 4.375rem; /* 기존 값 유지 */
+  color: #fff;
+}
+
+.typingDemo {
+  width: 28ch; /* 텍스트 길이에 맞춘 너비 설정 */
+  animation:
+    typing 4s steps(28),
+    blink 0.65s step-end infinite alternate;
+  /* 글씨 나오는 속도 */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 28ch;
+  }
+}
+
+@keyframes blink {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+
+.child {
+  position: absolute;
+  top: -2.961rem;
+  left: 29.75rem;
+  filter: blur(500px);
+  border-radius: 50%;
+  background-color: #ffeeaf;
+  width: 20.556rem;
+  height: 73.225rem;
+  transform: rotate(-41.2deg);
+  transform-origin: 0 0;
+}
+
+.item {
+  position: absolute;
+  top: 27.305rem;
+  left: -11rem;
+  filter: blur(300px);
+  background-color: #ffeeb0;
+  width: 18.1rem;
+  height: 57.438rem;
+  transform: rotate(-31.4deg);
+  transform-origin: 0 0;
+}
+
+@media (max-width: 768px) {
+  .betterTomorrowBetter {
+    top: 40%; /* 반응형 조정 */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.5rem; /* 반응형 폰트 크기 조정 */
+  }
+
+  .bitamim {
+    top: 30%; /* 반응형 조정 */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem; /* 반응형 폰트 크기 조정 */
+  }
+
+  .child,
+  .item {
+    width: 15rem; /* 반응형 크기 조정 */
+    height: 50rem; /* 반응형 크기 조정 */
+    top: -10%; /* 반응형 위치 조정 */
+  }
+}

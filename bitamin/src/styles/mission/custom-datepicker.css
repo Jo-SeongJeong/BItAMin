@@ -1,3 +1,98 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:c4f57eb242384c53c86f35f232a16008ee173eff4ede9ed8e6e4176c49f86084
-size 2225
+.react-datepicker {
+    font-family: 'Arial', sans-serif;
+    border: none;
+    font-size: 14px; /* 전체 폰트 크기 조정 */
+}
+
+.react-datepicker__current-month {
+    font-size: 1.3em; /* 월 표기 크기 조정 */
+    font-weight: bold;
+    margin-bottom: 0.8rem; /* 월 표기와 날짜 간격 조정 */
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day {
+    width: 2.8rem; /* 날짜 셀 너비 약간 축소 */
+    line-height: 2.8rem; /* 날짜 셀 높이 약간 축소 */
+    margin: 0.15rem; /* 날짜 셀 간격 조정 */
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+    background-color: #fbfbca;
+    color: #000000;
+}
+
+.react-datepicker__day--outside-month {
+    color: #ccc;
+}
+
+.react-datepicker__day:hover {
+    background-color: #fbfbca;
+    color: #000000;
+}
+
+.react-datepicker__day {
+    position: relative;
+}
+
+.react-datepicker__day--mission::before,
+.react-datepicker__day--phrase::before,
+.react-datepicker__day--phrase--mission::before {
+    content: '';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.react-datepicker__day--mission::before {
+    background-color: #b1dcf6;
+}
+
+.react-datepicker__day--phrase::before {
+    background-color: #b3b3f8;
+}
+
+.react-datepicker__day--phrase--mission::before {
+    background-color: #fac2c2;
+}
+
+.react-datepicker__day--disabled {
+    pointer-events: none;
+    cursor: default;
+    color: #ccc;
+}
+
+.react-datepicker__day--disabled:hover {
+    background-color: transparent;
+    color: #ccc;
+}
+
+.react-datepicker__header {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.react-datepicker__day-names {
+    border-bottom: none;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day {
+    width: 2.8rem; /* 요일 셀 너비 약간 축소 */
+    line-height: 2.8rem; /* 요일 셀 높이 약간 축소 */
+    margin: 0.15rem; /* 요일 셀 간격 조정 */
+    border: none;
+}
+
+.react-datepicker__current-month {
+    font-size: 1.3em; /* 월 표기 크기 조정 */
+    font-weight: bold;
+    border-bottom: none;
+    margin-bottom: 0.8rem; /* 월 표기와 날짜 간격 조정 */
+}

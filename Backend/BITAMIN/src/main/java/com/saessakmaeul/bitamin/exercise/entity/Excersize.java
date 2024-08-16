@@ -1,3 +1,26 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3f3a119c7a0957367afda0aaaa0f3373f49dab8343cd97023920990bffe7ddb6
-size 528
+package com.saessakmaeul.bitamin.exercise.entity;
+
+import jakarta.persistence.*;
+import lombok.Getter;
+
+@Entity
+@Table(name = "ai_exercise")
+@Getter
+public class Excersize {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private long id;
+
+    @Column(name = "title")
+    private String title;
+
+    @Column(name = "description")
+    private String description;
+
+    @Column(name = "level")
+    private int level;
+
+    @Column(name = "exercise_url")
+    private String exerciseUrl;
+}

@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:7c0d4edee399f81f9c1b8b9a9615d078b43bc866e50981d211e7598d15ffb8d2
-size 655
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "baseUrl": "src",
+    "allowJs": true, // JS 파일 허용
+    "checkJs": false, // JS 파일에 타입 검사 수행
+    "paths": {
+      "@/*": ["*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["src/stories/organisms/consultation"]
+}

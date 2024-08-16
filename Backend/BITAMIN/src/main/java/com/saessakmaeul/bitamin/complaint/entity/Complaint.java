@@ -1,3 +1,42 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b60f215437d06949c5b7f305f59a1d552191fca7a3f3ce835bc632fac3b03712
-size 849
+package com.saessakmaeul.bitamin.complaint.entity;
+
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.time.LocalDateTime;
+
+@Entity
+@Table(name = "complaint")
+@Getter
+@Setter
+public class Complaint {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
+    private long id;
+
+    @Column(name = "complainant_id")
+    private long complainantId;
+
+    @Column(name = "respondent_id")
+    private long respondentId;
+
+    @Column(name = "category")
+    private int category;
+
+    @Column(name = "content")
+    private String content;
+
+    @Column(name = "send_date")
+    private LocalDateTime sendDate;
+
+    @Column(name = "is_resolved")
+    private Boolean isResolved;
+
+    @Column(name = "judgement")
+    private int judgement;
+
+    @Column(name = "type")
+    private int type;
+}

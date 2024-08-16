@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8327ce05bc565ea573b0fef9c62c3207eb492cb91c96e29153545e2a2b8bbf2a
-size 553
+package com.saessakmaeul.bitamin.consultation.dto.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+@Builder
+@AllArgsConstructor
+@Getter
+@Setter
+public class JoinRoomRequest {
+    private Long id;
+    private Boolean isPrivated;
+    private String password;
+    private LocalDateTime startTime;
+    private String sessionId;
+
+    private Long memberId;
+    private String memberNickname;
+    private LocalDate consultationDate;
+}

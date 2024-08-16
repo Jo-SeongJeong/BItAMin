@@ -1,3 +1,401 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5ee63da77de66ed6e68252bc77e1ce4dd85c32b1eac2debc57a50b94e96a0d72
-size 7092
+.child {
+  position: absolute;
+  top: 6.125rem;
+  left: 8.75rem;
+  background-color: #f6f6f6;
+  width: 46.5rem;
+  height: 39.188rem;
+}
+.div1 {
+  position: absolute;
+  top: 7.75rem;
+  left: 48.938rem;
+  font-size: 0.625rem;
+  display: flex;
+  align-items: center;
+  width: 4.813rem;
+}
+.item {
+  position: absolute;
+  top: 12.25rem;
+  left: calc(50% - 372px);
+  background-color: rgba(233, 233, 233, 0.77);
+  border-bottom: 0.5px solid rgba(55, 55, 55, 0.3);
+  box-sizing: border-box;
+  width: 46.5rem;
+  height: 3.75rem;
+}
+.inner {
+  position: absolute;
+  top: 16rem;
+  left: calc(50% - 372px);
+  background-color: rgba(233, 233, 233, 0.77);
+  border-bottom: 0.5px solid rgba(55, 55, 55, 0.3);
+  box-sizing: border-box;
+  width: 46.5rem;
+  height: 3.75rem;
+}
+.div2 {
+  position: absolute;
+  top: 13.063rem;
+  left: 13.438rem;
+  font-weight: 800;
+  font-family: NanumGothic;
+}
+.div3 {
+  position: absolute;
+  top: 16.813rem;
+  left: 13.438rem;
+  font-weight: 800;
+  font-family: NanumGothic;
+}
+.b {
+  position: absolute;
+  top: 10.563rem;
+  left: 26.625rem;
+  font-family: Inter;
+  color: #555;
+}
+.b1 {
+  position: absolute;
+  top: 10.563rem;
+  left: 32.313rem;
+  font-family: Inter;
+  color: #555;
+}
+.groupIcon {
+  position: absolute;
+  top: 13.063rem;
+  left: 9.75rem;
+  width: 2.125rem;
+  height: 5.813rem;
+}
+.div4 {
+  position: absolute;
+  top: 14.125rem;
+  left: 13.438rem;
+  font-size: 0.688rem;
+}
+.div5 {
+  position: absolute;
+  top: 17.875rem;
+  left: 13.438rem;
+  color: #000;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 4.625rem;
+  left: 0rem;
+  background-color: rgba(255, 250, 246, 0);
+  width: 64rem;
+  height: 43.375rem;
+}
+.child1 {
+  position: absolute;
+  top: 33.625rem;
+  left: 50.125rem;
+  width: 13.875rem;
+  height: 14.375rem;
+  object-fit: cover;
+}
+.arrowLeftIcon {
+  width: 1.125rem;
+  position: relative;
+  height: 1.125rem;
+}
+.trash01Icon {
+  width: 1.125rem;
+  position: relative;
+  height: 1.125rem;
+  cursor: pointer;
+}
+.arrowLeftParent {
+  position: absolute;
+  top: 7.5rem;
+  left: 10.25rem;
+  width: 6.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.child2 {
+  position: absolute;
+  top: 20.75rem;
+  left: 13.438rem;
+  border-radius: 15px;
+  background-color: #f43636;
+  width: 2.375rem;
+  height: 1.125rem;
+  cursor: pointer;
+}
+.div6 {
+  position: absolute;
+  top: 20.938rem;
+  left: 14rem;
+  font-size: 0.625rem;
+  font-weight: 600;
+  font-family: Inter;
+  color: #fff;
+}
+.b2 {
+  position: relative;
+}
+.wrapper {
+  position: absolute;
+  top: 10.5rem;
+  left: 24rem;
+  border-radius: 5px;
+  background-color: #fc7c4c;
+  width: 2.188rem;
+  height: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.437rem 0rem;
+  box-sizing: border-box;
+  text-align: center;
+  color: #fff;
+  font-family: NanumGothic;
+}
+.b3 {
+  position: absolute;
+  top: 10.563rem;
+  left: 13rem;
+  font-size: 0.875rem;
+  font-family: NanumGothic;
+  color: #000;
+}
+.bitamin {
+  width: 8.5rem;
+  position: relative;
+  font-size: 2rem;
+  font-family: 'Bagel Fat One';
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.container {
+  width: 4.563rem;
+  height: 1.438rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+.child3 {
+  width: 3.125rem;
+  position: relative;
+  border-radius: 2px;
+  background-color: rgba(252, 124, 76, 0.74);
+  height: 0.125rem;
+  opacity: 0;
+}
+.div7 {
+  width: 3.75rem;
+  height: 4.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.312rem;
+  box-sizing: border-box;
+  gap: 0.312rem;
+  cursor: pointer;
+}
+.up {
+  width: 1.375rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.063rem;
+  flex-shrink: 0;
+}
+.upWrapper {
+  width: 1.688rem;
+  height: 2.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: -0.25rem;
+  color: #ff713c;
+  font-family: 'Ownglyph ryuttung';
+}
+.group {
+  width: 4.563rem;
+  height: 1.438rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  color: #777;
+}
+.personcircleIcon {
+  width: 1.188rem;
+  position: relative;
+  height: 1.188rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.span1 {
+  font-size: 0.75rem;
+}
+.span {
+  font-family: NanumBarunpen;
+  font-size: 1.063rem;
+}
+.txt {
+  width: 100%;
+}
+.div14 {
+  width: 3.313rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
+  flex-shrink: 0;
+}
+.frameDiv {
+  height: 1.563rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.vectorIcon {
+  width: 0.563rem;
+  position: relative;
+  height: 0.375rem;
+}
+.vectorWrapper {
+  width: 0.563rem;
+  height: 1.188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.312rem 0rem;
+  box-sizing: border-box;
+}
+.frameGroup {
+  width: 4.5rem;
+  height: 1.188rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.25rem;
+}
+.personcircleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.437rem;
+}
+.icon {
+  width: 1.188rem;
+  position: relative;
+  height: 1.231rem;
+}
+.wrapper1 {
+  height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.375rem;
+}
+.div13 {
+  width: 7.75rem;
+  height: 6.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+}
+.navbar {
+  position: absolute;
+  top: -0.062rem;
+  left: 2.438rem;
+  background-color: #fff;
+  width: 59rem;
+  height: 4.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5.875rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #ff713c;
+  font-family: NanumGothic;
+}
+.div15 {
+  width: 4.813rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.trash02Icon {
+  width: 1rem;
+  position: relative;
+  height: 1rem;
+}
+.parent1 {
+  position: absolute;
+  top: 13.625rem;
+  left: 47.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.625rem;
+  color: #555;
+}
+.parent2 {
+  position: absolute;
+  top: 17.375rem;
+  left: 47.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 0.625rem;
+  color: #555;
+}
+.div {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 48rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 0.75rem;
+  color: #333;
+  font-family: NanumBarunpen;
+}

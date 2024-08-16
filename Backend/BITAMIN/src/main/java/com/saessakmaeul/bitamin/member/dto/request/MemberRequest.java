@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:df9a16f623c239e912f3d614172ec8bd3f6037233d250904eab89691235c50b5
-size 562
+package com.saessakmaeul.bitamin.member.dto.request;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.Setter;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.time.LocalDate;
+
+@Getter
+@Setter
+@Builder
+public class MemberRequest {
+    private String email;
+    private String password;
+    private String name;
+    private String nickname;
+    private String sidoName;
+    private String gugunName;
+    private String dongName;
+    private String dongCode;
+    private LocalDate birthday;
+    private MultipartFile profileImage;
+
+}

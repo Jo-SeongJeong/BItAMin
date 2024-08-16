@@ -1,3 +1,40 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d4c919de2c1b9e03f3308be4d55caec574f1e58a5f9cb3cad360dd1cefb89d82
-size 877
+import React from 'react'
+import { Navigate, Outlet } from 'react-router-dom'
+import useAuthStore from '@/store/useAuthStore'
+
+interface PrivateRouteProps {
+  authentication: boolean
+  requiredRole?: string
+  children?: React.ReactNode
+}
+
+const PrivateRoute: React.FC<PrivateRouteProps> = ({
+  authentication,
+  requiredRole,
+  children,
+}) => {
+  const { accessToken, role } = useAuthStore()
+
+  // 사용자 인증을 위해 토큰 확인
+  if (authentication) {
+    if (!accessToken) {
+      return <Navigate to="/login" />
+    }
+    if (requiredRole && role !== requiredRole) {
+      return <Navigate to="/home" />
+    }
+    return children ? <>{children}</> : <Outlet />
+  } else {
+    return !accessToken ? (
+      children ? (
+        <>{children}</>
+      ) : (
+        <Outlet />
+      )
+    ) : (
+      <Navigate to="/home" />
+    )
+  }
+}
+
+export default PrivateRoute

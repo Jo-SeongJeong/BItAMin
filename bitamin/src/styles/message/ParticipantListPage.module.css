@@ -1,3 +1,527 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b042008e08aee0f6b173fe6fb89c2143d9ede5bccef8e29ecd7269912cf563b0
-size 9609
+.child {
+  position: absolute;
+  top: 6.125rem;
+  left: 8.75rem;
+  background-color: #f6f6f6;
+  width: 46.625rem;
+  height: 39.188rem;
+}
+.item {
+  position: absolute;
+  top: 12.375rem;
+  left: 21rem;
+  max-height: 100%;
+  width: 25.563rem;
+}
+.inner {
+  position: absolute;
+  top: 17.188rem;
+  left: 21rem;
+  max-height: 100%;
+  width: 25.563rem;
+}
+.vectorIcon {
+  position: absolute;
+  top: 22rem;
+  left: 21rem;
+  max-height: 100%;
+  width: 25.563rem;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 4.875rem;
+  left: 0rem;
+  background-color: rgba(255, 250, 246, 0);
+  width: 64rem;
+  height: 43.375rem;
+}
+.child1 {
+  position: absolute;
+  top: 9.625rem;
+  left: 0rem;
+  background-color: rgba(255, 250, 246, 0);
+  width: 64rem;
+  height: 43.375rem;
+}
+.b {
+  position: relative;
+}
+.wrapper {
+  width: 5rem;
+  border-radius: 8px;
+  background-color: rgba(204, 204, 204, 0.2);
+  height: 1.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.437rem 1.875rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.container {
+  width: 5rem;
+  border-radius: 8px;
+  background-color: #80b588;
+  height: 1.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.437rem 1.875rem;
+  box-sizing: border-box;
+  color: #fff;
+}
+.frameParent {
+  position: absolute;
+  top: 8.188rem;
+  left: 15.938rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.937rem;
+  text-align: center;
+  font-size: 0.813rem;
+  color: #999;
+  font-family: NanumGothic;
+}
+.child2 {
+  position: absolute;
+  top: 13.75rem;
+  left: 16.313rem;
+  border-radius: 5px;
+  background-color: rgba(128, 181, 136, 0.3);
+  width: 4.375rem;
+  height: 1.75rem;
+}
+.child3 {
+  position: absolute;
+  top: 18.563rem;
+  left: 16.313rem;
+  border-radius: 5px;
+  background-color: rgba(128, 181, 136, 0.3);
+  width: 4.375rem;
+  height: 1.75rem;
+}
+.child4 {
+  position: absolute;
+  top: 23.375rem;
+  left: 16.313rem;
+  border-radius: 5px;
+  background-color: rgba(128, 181, 136, 0.3);
+  width: 4.375rem;
+  height: 1.75rem;
+}
+.child5 {
+  position: absolute;
+  top: 13.75rem;
+  left: 21.938rem;
+  border-radius: 5px;
+  background-color: rgba(128, 181, 136, 0.3);
+  width: 4.375rem;
+  height: 1.75rem;
+}
+.child6 {
+  position: absolute;
+  top: 18.563rem;
+  left: 21.938rem;
+  border-radius: 5px;
+  background-color: rgba(128, 181, 136, 0.3);
+  width: 4.375rem;
+  height: 1.75rem;
+}
+.child7 {
+  position: absolute;
+  top: 23.375rem;
+  left: 21.938rem;
+  border-radius: 5px;
+  background-color: rgba(128, 181, 136, 0.3);
+  width: 4.375rem;
+  height: 1.75rem;
+}
+.child8 {
+  position: absolute;
+  top: 13.75rem;
+  left: 27.563rem;
+  border-radius: 5px;
+  background-color: rgba(128, 181, 136, 0.3);
+  width: 4.375rem;
+  height: 1.75rem;
+}
+.child9 {
+  position: absolute;
+  top: 18.563rem;
+  left: 27.563rem;
+  border-radius: 5px;
+  background-color: rgba(128, 181, 136, 0.3);
+  width: 4.375rem;
+  height: 1.75rem;
+}
+.child10 {
+  position: absolute;
+  top: 23.375rem;
+  left: 27.563rem;
+  border-radius: 5px;
+  background-color: rgba(128, 181, 136, 0.3);
+  width: 4.375rem;
+  height: 1.75rem;
+}
+.child11 {
+  position: absolute;
+  top: 13.75rem;
+  left: 33.188rem;
+  border-radius: 5px;
+  background-color: rgba(128, 181, 136, 0.3);
+  width: 4.375rem;
+  height: 1.75rem;
+}
+.child12 {
+  position: absolute;
+  top: 23.375rem;
+  left: 33.188rem;
+  border-radius: 5px;
+  background-color: rgba(128, 181, 136, 0.3);
+  width: 4.375rem;
+  height: 1.75rem;
+}
+.div1 {
+  position: absolute;
+  top: 11.875rem;
+  left: 16.313rem;
+  font-family: 'Inria Sans';
+  color: #555;
+}
+.div2 {
+  position: absolute;
+  top: 16.688rem;
+  left: 16.313rem;
+  font-family: 'Inria Sans';
+  color: #555;
+}
+.div3 {
+  position: absolute;
+  top: 21.5rem;
+  left: 16.313rem;
+  font-family: 'Inria Sans';
+  color: #555;
+}
+.send01Icon {
+  width: 0.813rem;
+  position: relative;
+  height: 0.813rem;
+  cursor: pointer;
+}
+.parent {
+  position: absolute;
+  top: 14.063rem;
+  left: 16.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.312rem;
+}
+.group {
+  position: absolute;
+  top: 18.875rem;
+  left: 16.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.312rem;
+}
+.frameDiv {
+  position: absolute;
+  top: 23.688rem;
+  left: 16.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.312rem;
+}
+.parent1 {
+  position: absolute;
+  top: 14.063rem;
+  left: 22.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.312rem;
+}
+.parent2 {
+  position: absolute;
+  top: 18.875rem;
+  left: 22.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.312rem;
+}
+.parent3 {
+  position: absolute;
+  top: 23.688rem;
+  left: 22.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.312rem;
+}
+.parent4 {
+  position: absolute;
+  top: 14.063rem;
+  left: 28.125rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.312rem;
+}
+.parent5 {
+  position: absolute;
+  top: 18.875rem;
+  left: 28.125rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.312rem;
+}
+.parent6 {
+  position: absolute;
+  top: 23.688rem;
+  left: 28.125rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.312rem;
+}
+.parent7 {
+  position: absolute;
+  top: 14.063rem;
+  left: 33.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.312rem;
+}
+.parent8 {
+  position: absolute;
+  top: 23.688rem;
+  left: 33.75rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.312rem;
+}
+.groupIcon {
+  position: absolute;
+  top: 33.875rem;
+  left: 50.125rem;
+  width: 13.875rem;
+  height: 14.375rem;
+  object-fit: cover;
+}
+.bitamin {
+  width: 8.5rem;
+  position: relative;
+  font-size: 2rem;
+  font-family: 'Bagel Fat One';
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.frame {
+  width: 4.563rem;
+  height: 1.438rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+.child13 {
+  width: 3.125rem;
+  position: relative;
+  border-radius: 2px;
+  background-color: rgba(252, 124, 76, 0.74);
+  height: 0.125rem;
+  opacity: 0;
+}
+.div15 {
+  width: 3.75rem;
+  height: 4.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.312rem;
+  box-sizing: border-box;
+  gap: 0.312rem;
+  cursor: pointer;
+}
+.up {
+  width: 1.375rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.063rem;
+  flex-shrink: 0;
+}
+.upWrapper {
+  width: 1.688rem;
+  height: 2.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: -0.25rem;
+  color: #ff713c;
+  font-family: 'Ownglyph ryuttung';
+}
+.parent10 {
+  width: 4.563rem;
+  height: 1.438rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.parent9 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  color: #777;
+}
+.personcircleIcon {
+  width: 1.188rem;
+  position: relative;
+  height: 1.188rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.span1 {
+  font-size: 0.75rem;
+}
+.span {
+  font-family: NanumBarunpen;
+  font-size: 1.063rem;
+}
+.txt {
+  width: 100%;
+}
+.div22 {
+  width: 3.313rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
+  flex-shrink: 0;
+}
+.wrapper2 {
+  height: 1.563rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.vectorIcon1 {
+  width: 0.563rem;
+  position: relative;
+  height: 0.375rem;
+}
+.vectorWrapper {
+  width: 0.563rem;
+  height: 1.188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.312rem 0rem;
+  box-sizing: border-box;
+}
+.frameContainer {
+  width: 4.5rem;
+  height: 1.188rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.25rem;
+}
+.personcircleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.437rem;
+}
+.icon {
+  width: 1.188rem;
+  position: relative;
+  height: 1.231rem;
+}
+.wrapper3 {
+  height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.375rem;
+}
+.div21 {
+  width: 7.75rem;
+  height: 6.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+}
+.navbar {
+  position: absolute;
+  top: -0.062rem;
+  left: 2.438rem;
+  background-color: #fff;
+  width: 59rem;
+  height: 4.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5.875rem;
+  text-align: center;
+  color: #ff713c;
+  font-family: NanumGothic;
+}
+.div {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 48rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 0.875rem;
+  color: #000;
+  font-family: NanumBarunpen;
+}

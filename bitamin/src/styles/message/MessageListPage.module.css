@@ -1,3 +1,386 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b37c0fc946dcd91ead6f8f0aa2e5aba3582e2e131a82b5b994319343f57f551a
-size 6785
+/* .child {
+  position: absolute;
+  top: 6.125rem;
+  left: 8.75rem;
+  background-color: #f6f6f6;
+  width: 46.5rem;
+  height: 39.188rem;
+}
+.item {
+  position: absolute;
+  top: 4.625rem;
+  left: 0rem;
+  background-color: rgba(255, 250, 246, 0);
+  width: 64rem;
+  height: 43.375rem;
+}
+.frameChild {
+  position: absolute;
+  top: 0.25rem;
+  left: 1rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+}
+.div1 {
+  position: absolute;
+  top: 0.188rem;
+  left: 8.688rem;
+}
+.div2 {
+  position: absolute;
+  top: 0.25rem;
+  left: 26.188rem;
+  font-size: 0.625rem;
+  display: flex;
+  align-items: center;
+  width: 5.438rem;
+}
+.parent {
+  position: absolute;
+  top: 3.188rem;
+  left: 0.813rem;
+  width: 31.25rem;
+  height: 1.313rem;
+}
+.div3 {
+  position: absolute;
+  top: 0.813rem;
+  left: 4rem;
+  color: #ff713c;
+}
+.div4 {
+  position: absolute;
+  top: 0.875rem;
+  left: 9.5rem;
+  color: #000;
+}
+.div5 {
+  position: absolute;
+  top: 0.875rem;
+  left: 27rem;
+  font-size: 0.625rem;
+  display: flex;
+  align-items: center;
+  width: 4.813rem;
+}
+.ellipseParent {
+  align-self: stretch;
+  position: relative;
+  border-radius: 8px;
+  background-color: #fff;
+  height: 2.5rem;
+  cursor: pointer;
+}
+.div6 {
+  position: absolute;
+  top: 0.813rem;
+  left: 9.5rem;
+}
+.frameItem {
+  position: absolute;
+  top: 0.25rem;
+  left: 1.188rem;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  object-fit: cover;
+}
+.div7 {
+  position: absolute;
+  top: 0.813rem;
+  left: 4rem;
+}
+.trash02Icon {
+  position: absolute;
+  top: 0.688rem;
+  left: 28.75rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.group {
+  align-self: stretch;
+  position: relative;
+  box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  background-color: #ff713c;
+  height: 2.5rem;
+  cursor: pointer;
+  color: #fff;
+}
+.div25 {
+  position: absolute;
+  top: 0.875rem;
+  left: 27rem;
+  font-size: 0.625rem;
+  color: #333;
+  display: flex;
+  align-items: center;
+  width: 4.813rem;
+}
+.ellipseParent2 {
+  align-self: stretch;
+  position: relative;
+  border-radius: 8px;
+  background-color: #fff;
+  height: 2.5rem;
+  cursor: pointer;
+  color: #ff713c;
+}
+.frameParent {
+  position: absolute;
+  top: 12rem;
+  left: 15rem;
+  width: 34rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.625rem;
+  text-align: left;
+  font-family: NanumBarunpen;
+}
+.b {
+  position: relative;
+}
+.wrapper {
+  width: 5rem;
+  border-radius: 8px;
+  background-color: #fee1d3;
+  height: 1.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.437rem 1.875rem;
+  box-sizing: border-box;
+}
+.frame {
+  width: 5rem;
+  border-radius: 8px;
+  background-color: rgba(204, 204, 204, 0.2);
+  height: 1.875rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.437rem 1.875rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.49);
+}
+.frameGroup {
+  position: absolute;
+  top: 8.125rem;
+  left: 15rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.937rem;
+  font-size: 0.813rem;
+  color: #000;
+}
+.inner {
+  position: absolute;
+  top: 33.625rem;
+  left: 50.125rem;
+  width: 13.875rem;
+  height: 14.375rem;
+  object-fit: cover;
+}
+.bitamin {
+  width: 8.5rem;
+  position: relative;
+  font-size: 2rem;
+  font-family: 'Bagel Fat One';
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.wrapper1 {
+  width: 4.563rem;
+  height: 1.438rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+.rectangleDiv {
+  width: 3.125rem;
+  position: relative;
+  border-radius: 2px;
+  background-color: rgba(252, 124, 76, 0.74);
+  height: 0.125rem;
+  opacity: 0;
+}
+.div32 {
+  width: 3.75rem;
+  height: 4.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.312rem;
+  box-sizing: border-box;
+  gap: 0.312rem;
+  cursor: pointer;
+}
+.up {
+  width: 1.375rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.063rem;
+  flex-shrink: 0;
+}
+.upWrapper {
+  width: 1.688rem;
+  height: 2.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: -0.25rem;
+  color: #ff713c;
+  font-family: 'Ownglyph ryuttung';
+}
+.parent3 {
+  width: 4.563rem;
+  height: 1.438rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.parent2 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  color: #777;
+}
+.personcircleIcon {
+  width: 1.188rem;
+  position: relative;
+  height: 1.188rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.span1 {
+  font-size: 0.75rem;
+}
+.span {
+  font-family: NanumBarunpen;
+  font-size: 1.063rem;
+}
+.txt {
+  width: 100%;
+}
+.div39 {
+  width: 3.313rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
+  flex-shrink: 0;
+}
+.wrapper3 {
+  height: 1.563rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.vectorIcon {
+  width: 0.563rem;
+  position: relative;
+  height: 0.375rem;
+}
+.vectorWrapper {
+  width: 0.563rem;
+  height: 1.188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.312rem 0rem;
+  box-sizing: border-box;
+}
+.frameParent1 {
+  width: 4.5rem;
+  height: 1.188rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.25rem;
+}
+.personcircleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.437rem;
+}
+.icon {
+  width: 1.188rem;
+  position: relative;
+  height: 1.231rem;
+}
+.wrapper4 {
+  height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.375rem;
+}
+.div38 {
+  width: 7.75rem;
+  height: 6.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+}
+.navbar {
+  position: absolute;
+  top: -0.062rem;
+  left: 2.438rem;
+  background-color: #fff;
+  width: 59rem;
+  height: 4.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5.875rem;
+  font-size: 0.875rem;
+  color: #ff713c;
+}
+.div {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 48rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #333;
+  font-family: NanumGothic;
+} */

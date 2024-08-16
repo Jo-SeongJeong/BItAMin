@@ -1,3 +1,27 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:050e00c4ca9aa81acfc90c63551e6b4b50ac79bf31562854d4f5cd7933c5726c
-size 754
+package com.saessakmaeul.bitamin.mission.dto.request;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.time.LocalDate;
+
+@Getter
+@Setter
+@NoArgsConstructor
+public class MemberMissionRequest {
+    private String completeDate;
+    private String missionReview;
+    private Long missionId;
+    private MultipartFile missionImage;
+
+    @Builder
+    public MemberMissionRequest(String completeDate, String missionReview, Long missionId, MultipartFile missionImage) {
+        this.completeDate = completeDate;
+        this.missionReview = missionReview;
+        this.missionId = missionId;
+        this.missionImage = missionImage;
+    }
+}

@@ -1,3 +1,813 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b05117ee30943ebeb9a9058b675e0fc58c7dfeeb8d3b15f5e7ee565eee98f767
-size 14446
+.child {
+  position: absolute;
+  top: 4.688rem;
+  left: calc(50% - 512px);
+  background-color: rgba(252, 210, 179, 0.25);
+  width: 64rem;
+  height: 43.375rem;
+}
+.groupChild {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border-radius: 11px;
+  width: 22.688rem;
+  height: 33.563rem;
+}
+.inner {
+  position: absolute;
+  top: 7.25rem;
+  left: 2.375rem;
+  width: 22.688rem;
+  height: 33.563rem;
+}
+.item {
+  position: absolute;
+  top: 44.188rem;
+  left: calc(50% - 18px);
+  border-radius: 5px;
+  width: 2.375rem;
+  height: 2rem;
+}
+.rectangleDiv {
+  position: absolute;
+  bottom: 0rem;
+  left: calc(50% - 512px);
+  background-color: #fff;
+  width: 64rem;
+  height: 4.625rem;
+}
+.groupItem {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border-radius: 5px;
+  background-color: #fd1919;
+  width: 4.688rem;
+  height: 1.75rem;
+}
+.b {
+  position: absolute;
+  top: calc(50% - 12px);
+  left: calc(50% - 22.5px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.813rem;
+  height: 1.456rem;
+}
+.rectangleParent {
+  position: absolute;
+  top: 44.813rem;
+  left: 56.813rem;
+  width: 4.688rem;
+  height: 1.75rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #fff;
+  font-family: Lato;
+}
+.videoOffIcon {
+  position: absolute;
+  top: 0.25rem;
+  left: 0.375rem;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.div1 {
+  position: absolute;
+  top: 2.188rem;
+  left: 0rem;
+  display: inline-block;
+  width: 2.5rem;
+}
+.videoOffParent {
+  position: absolute;
+  top: 44.25rem;
+  left: 5.438rem;
+  width: 2.5rem;
+  height: 2.813rem;
+  font-size: 0.5rem;
+  color: #333;
+  font-family: Inter;
+}
+.microphoneOff01Icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1.625rem;
+  flex-shrink: 0;
+}
+.div2 {
+  align-self: stretch;
+  position: relative;
+}
+.microphoneOff01Parent {
+  position: absolute;
+  top: 44.5rem;
+  left: 2.875rem;
+  width: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.312rem;
+  font-size: 0.5rem;
+  color: #333;
+  font-family: Inter;
+}
+.child1 {
+  position: absolute;
+  top: 4.688rem;
+  left: 49rem;
+  background-color: #fff;
+  border-top: 0.5px solid #ff713c;
+  box-sizing: border-box;
+  width: 15rem;
+  height: 38.75rem;
+}
+.child2 {
+  position: absolute;
+  top: 6.5rem;
+  left: 49rem;
+  background-color: #eeeeff;
+  width: 15rem;
+  height: 13.375rem;
+}
+.child3 {
+  position: absolute;
+  top: 7.125rem;
+  left: 50.25rem;
+  border-radius: 8px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.5);
+  box-sizing: border-box;
+  width: 12.5rem;
+  height: 2rem;
+}
+.child4 {
+  position: absolute;
+  top: 9.688rem;
+  left: 50.25rem;
+  border-radius: 8px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.5);
+  box-sizing: border-box;
+  width: 12.5rem;
+  height: 2rem;
+}
+.child5 {
+  position: absolute;
+  top: 12.25rem;
+  left: 50.25rem;
+  border-radius: 8px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.5);
+  box-sizing: border-box;
+  width: 12.5rem;
+  height: 2rem;
+}
+.child6 {
+  position: absolute;
+  top: 14.813rem;
+  left: 50.25rem;
+  border-radius: 8px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.5);
+  box-sizing: border-box;
+  width: 12.5rem;
+  height: 2rem;
+}
+.child7 {
+  position: absolute;
+  top: 17.375rem;
+  left: 50.25rem;
+  border-radius: 8px;
+  background-color: #fff;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.5);
+  box-sizing: border-box;
+  width: 12.5rem;
+  height: 2rem;
+}
+.div3 {
+  position: absolute;
+  top: 7.563rem;
+  left: 51.5rem;
+}
+.div4 {
+  position: absolute;
+  top: 10.125rem;
+  left: 51.5rem;
+}
+.div5 {
+  position: absolute;
+  top: 12.688rem;
+  left: 51.5rem;
+}
+.div6 {
+  position: absolute;
+  top: 15.25rem;
+  left: 51.5rem;
+}
+.div7 {
+  position: absolute;
+  top: 17.813rem;
+  left: 51.5rem;
+}
+.child8 {
+  position: absolute;
+  top: 5.688rem;
+  left: 49.563rem;
+  border-radius: 2px;
+  background-color: rgba(252, 124, 76, 0.72);
+  width: 4.813rem;
+  height: 0.438rem;
+}
+.child9 {
+  position: absolute;
+  top: 21.125rem;
+  left: 49.563rem;
+  border-radius: 2px;
+  background-color: rgba(252, 124, 76, 0.72);
+  width: 2.313rem;
+  height: 0.438rem;
+}
+.div8 {
+  position: absolute;
+  top: 5rem;
+  left: 49.875rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: Lato;
+  text-align: center;
+}
+.div9 {
+  position: absolute;
+  top: 20.375rem;
+  left: 49.875rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: Lato;
+  text-align: center;
+}
+.child10 {
+  position: absolute;
+  top: 22.75rem;
+  left: 51.625rem;
+  border-radius: 8px 8px 8px 0px;
+  background-color: #e9e9e9;
+  width: 7.125rem;
+  height: 1.75rem;
+}
+.child11 {
+  position: absolute;
+  top: 29.125rem;
+  left: 63.063rem;
+  border-radius: 8px 8px 8px 0px;
+  background-color: #eeeeff;
+  width: 4.625rem;
+  height: 1.75rem;
+  transform: rotate(180deg);
+  transform-origin: 0 0;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 26.75rem;
+  left: 49.313rem;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  width: 1.563rem;
+  height: 1.563rem;
+}
+.child12 {
+  position: absolute;
+  top: 32.938rem;
+  left: 49.313rem;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  width: 1.563rem;
+  height: 1.563rem;
+}
+.child13 {
+  position: absolute;
+  top: 36.438rem;
+  left: 49.313rem;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  width: 1.563rem;
+  height: 1.563rem;
+}
+.div10 {
+  position: absolute;
+  top: 23.188rem;
+  left: 52.063rem;
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  width: 6.25rem;
+}
+.div11 {
+  position: absolute;
+  top: calc(50% - 7px);
+  left: calc(50% - 45px);
+}
+.wrapper {
+  position: absolute;
+  top: 25.938rem;
+  left: 51.625rem;
+  border-radius: 8px 8px 8px 0px;
+  background-color: #e9e9e9;
+  width: 7rem;
+  height: 1.75rem;
+  font-size: 0.75rem;
+}
+.div12 {
+  position: absolute;
+  top: calc(50% - 7px);
+  left: calc(50% - 49.5px);
+}
+.container {
+  position: absolute;
+  top: 32.125rem;
+  left: 51.625rem;
+  border-radius: 8px 8px 8px 0px;
+  background-color: #e9e9e9;
+  width: 7.313rem;
+  height: 1.75rem;
+  font-size: 0.75rem;
+}
+.div13 {
+  position: absolute;
+  top: calc(50% - 7px);
+  left: calc(50% - 65.5px);
+}
+.frame {
+  position: absolute;
+  top: 35.063rem;
+  left: 51.625rem;
+  border-radius: 8px 8px 8px 0px;
+  background-color: #e9e9e9;
+  width: 9.188rem;
+  height: 2.375rem;
+  font-size: 0.75rem;
+}
+.div14 {
+  position: absolute;
+  top: calc(50% + 89px);
+  left: calc(50% + 438px);
+  font-size: 0.75rem;
+}
+.ellipseIcon {
+  position: absolute;
+  top: 23.563rem;
+  left: 49.313rem;
+  border-radius: 50%;
+  width: 1.563rem;
+  height: 1.5rem;
+  object-fit: cover;
+}
+.child14 {
+  position: absolute;
+  top: 33rem;
+  left: 49.313rem;
+  border-radius: 50%;
+  width: 1.563rem;
+  height: 1.5rem;
+  object-fit: cover;
+}
+.child15 {
+  position: absolute;
+  top: 36.438rem;
+  left: 49.313rem;
+  border-radius: 50%;
+  width: 1.563rem;
+  height: 1.5rem;
+  object-fit: cover;
+}
+.child16 {
+  position: absolute;
+  top: 40.688rem;
+  left: 49rem;
+  background-color: #e9e9e9;
+  width: 15rem;
+  height: 2.688rem;
+}
+.div15 {
+  position: absolute;
+  top: 41.188rem;
+  left: 50.25rem;
+  font-size: 0.625rem;
+  font-weight: 500;
+  font-family: Lato;
+  color: #777;
+}
+.groupInner {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  border-radius: 5px;
+  background-color: #b3b2b2;
+  width: 2.5rem;
+  height: 0.938rem;
+}
+.b1 {
+  position: absolute;
+  top: calc(50% - 7.5px);
+  left: calc(50% - 13.78px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.669rem;
+  height: 0.938rem;
+}
+.rectangleGroup {
+  position: absolute;
+  top: 42rem;
+  left: 60.938rem;
+  width: 2.5rem;
+  height: 0.938rem;
+  text-align: center;
+  font-size: 0.625rem;
+  color: #fff;
+  font-family: Lato;
+}
+.child17 {
+  position: absolute;
+  top: 4.688rem;
+  left: 0rem;
+  background-color: #fff;
+  border-top: 0.5px solid #ff713c;
+  box-sizing: border-box;
+  width: 49rem;
+  height: 1.813rem;
+}
+.presentation03Icon {
+  width: 1.875rem;
+  position: relative;
+  height: 1.563rem;
+}
+.presentation03Parent {
+  position: absolute;
+  top: 44.688rem;
+  left: 9rem;
+  width: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.187rem;
+  font-size: 0.5rem;
+  color: #333;
+  font-family: Inter;
+}
+.b2 {
+  position: absolute;
+  top: 44.875rem;
+  left: calc(50% - 19px);
+  font-size: 1.25rem;
+  font-family: Lato;
+  color: #ff713c;
+  text-align: center;
+}
+.div17 {
+  position: absolute;
+  top: 5rem;
+  left: 6.438rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  font-family: Lato;
+  color: #333;
+  text-align: center;
+}
+.vectorIcon {
+  position: absolute;
+  top: 44.688rem;
+  left: 29.125rem;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2rem;
+  object-fit: contain;
+  opacity: 0.5;
+}
+.child18 {
+  position: absolute;
+  top: 44.688rem;
+  left: 34.938rem;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2rem;
+  object-fit: contain;
+  opacity: 0.5;
+}
+.lockOpen02Icon {
+  position: absolute;
+  top: 4.875rem;
+  left: 3.125rem;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.rectangleIcon {
+  position: absolute;
+  top: 8.75rem;
+  left: 3.625rem;
+  border-radius: 20px;
+  width: 42rem;
+  height: 22.438rem;
+  object-fit: cover;
+}
+.child19 {
+  position: absolute;
+  top: 33.5rem;
+  left: 39.625rem;
+  width: 8.563rem;
+  height: 7.875rem;
+  object-fit: cover;
+}
+.child20 {
+  position: absolute;
+  top: 33.5rem;
+  left: 29.938rem;
+  width: 8.563rem;
+  height: 7.875rem;
+  object-fit: cover;
+}
+.child21 {
+  position: absolute;
+  top: 33.5rem;
+  left: 20.25rem;
+  width: 8.563rem;
+  height: 7.875rem;
+  object-fit: cover;
+}
+.child22 {
+  position: absolute;
+  top: 33.5rem;
+  left: 10.563rem;
+  width: 8.563rem;
+  height: 7.875rem;
+  object-fit: cover;
+}
+.child23 {
+  position: absolute;
+  top: 33.5rem;
+  left: 0.875rem;
+  width: 8.563rem;
+  height: 7.875rem;
+  object-fit: cover;
+}
+.sirenIcon {
+  position: absolute;
+  top: 10.125rem;
+  left: 60.5rem;
+  width: 1.188rem;
+  height: 1.188rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+.sirenIcon1 {
+  position: absolute;
+  top: 12.688rem;
+  left: 60.5rem;
+  width: 1.188rem;
+  height: 1.188rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+.sirenIcon2 {
+  position: absolute;
+  top: 15.25rem;
+  left: 60.5rem;
+  width: 1.188rem;
+  height: 1.188rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+.sirenIcon3 {
+  position: absolute;
+  top: 17.813rem;
+  left: 60.5rem;
+  width: 1.188rem;
+  height: 1.188rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+.bitamin {
+  width: 8.5rem;
+  position: relative;
+  font-size: 2rem;
+  font-family: 'Bagel Fat One';
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.div19 {
+  position: relative;
+}
+.frameDiv {
+  width: 4.563rem;
+  height: 1.438rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+.child24 {
+  width: 3.125rem;
+  position: relative;
+  border-radius: 2px;
+  background-color: rgba(252, 124, 76, 0.74);
+  height: 0.125rem;
+}
+.div18 {
+  width: 3.75rem;
+  height: 4.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.312rem;
+  box-sizing: border-box;
+  gap: 0.312rem;
+  cursor: pointer;
+  color: #000;
+}
+.child25 {
+  width: 3.125rem;
+  position: relative;
+  border-radius: 2px;
+  background-color: rgba(252, 124, 76, 0.74);
+  height: 0.125rem;
+  opacity: 0;
+}
+.div20 {
+  width: 3.75rem;
+  height: 4.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.312rem;
+  box-sizing: border-box;
+  gap: 0.312rem;
+  cursor: pointer;
+}
+.up {
+  width: 1.375rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.063rem;
+  flex-shrink: 0;
+}
+.upWrapper {
+  width: 1.688rem;
+  height: 2.25rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: -0.25rem;
+  color: #ff713c;
+  font-family: 'Ownglyph ryuttung';
+}
+.group {
+  width: 4.563rem;
+  height: 1.438rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.parent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  color: #777;
+}
+.personcircleIcon {
+  width: 1.188rem;
+  position: relative;
+  height: 1.188rem;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.span1 {
+  font-size: 0.75rem;
+}
+.span {
+  font-family: NanumBarunpen;
+  font-size: 1.063rem;
+}
+.txt {
+  width: 100%;
+}
+.div25 {
+  width: 3.313rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 1.5rem;
+  flex-shrink: 0;
+}
+.wrapper2 {
+  height: 1.563rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.vectorIcon1 {
+  width: 0.563rem;
+  position: relative;
+  height: 0.375rem;
+}
+.vectorWrapper {
+  width: 0.563rem;
+  height: 1.188rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0.312rem 0rem;
+  box-sizing: border-box;
+}
+.frameGroup {
+  width: 4.5rem;
+  height: 1.188rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.25rem;
+}
+.personcircleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.437rem;
+}
+.icon {
+  width: 1.188rem;
+  position: relative;
+  height: 1.231rem;
+}
+.wrapper3 {
+  height: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.375rem;
+}
+.div24 {
+  width: 7.75rem;
+  height: 6.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+}
+.navbar {
+  position: absolute;
+  top: -0.062rem;
+  left: 2.438rem;
+  background-color: #fff;
+  width: 59rem;
+  height: 4.625rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5.875rem;
+  text-align: center;
+  font-size: 0.875rem;
+  color: #ff713c;
+  font-family: NanumGothic;
+}
+.div {
+  width: 100%;
+  position: relative;
+  background-color: #fffbfa;
+  height: 48rem;
+  overflow: hidden;
+  text-align: left;
+  font-size: 1rem;
+  color: #000;
+  font-family: 'Ownglyph ryuttung';
+}

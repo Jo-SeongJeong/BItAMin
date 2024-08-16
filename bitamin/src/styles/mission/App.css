@@ -1,3 +1,60 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:6d07f8345a36a2e552f60655fca6893af47a2ad2f5e74651c1adc89e4af68ac5
-size 957
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #dd7676;
+    border-radius: 4px;
+    color: black;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.weather-info {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4078af;
+    border-radius: 4px;
+}
+
+.weather-info div {
+    margin-bottom: 10px;
+}

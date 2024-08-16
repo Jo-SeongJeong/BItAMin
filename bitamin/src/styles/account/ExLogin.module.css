@@ -1,3 +1,248 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:03e20a3e8bd3be4976cc3a29c06ab8b4935549613d9369f51d3f899d63d43da6
-size 4437
+.mainImg {
+  position: absolute;
+  top: 11.5vh; /* 기존 top: 99px */
+  right: 0;
+  width: 14.58vw; /* 기존 width: 280px */
+  height: 14.58vw; /* 기존 height: 280px */
+  object-fit: cover;
+}
+.loginexGgul {
+  position: absolute;
+  top: 50vh;
+  left: 28%;
+  width: 10.42vw; /* 기존 width: 200px */
+  height: 10.42vw; /* 기존 height: 200px */
+  object-fit: cover;
+}
+.inner {
+  position: absolute;
+  top: 7.3vh; /* 기존 top: 73px */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(249, 234, 155, 0.84);
+  width: 100%;
+  height: 30.93vh; /* 기존 height: 306px */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.div3 {
+  font-size: 1.46vw; /* 기존 font-size: 28px */
+  font-family: 'Ownglyph ryuttung';
+  color: #333;
+  text-align: center;
+}
+.p {
+  margin: 0;
+}
+
+.groupChild {
+  position: absolute;
+  top: 55vh;
+  left: 45vw;
+}
+.suggestionSection {
+  position: absolute;
+  top: 65%;
+  left: 38%;
+  text-align: center;
+  transform: translateY(-50%);
+}
+
+.suggestionText {
+  font-size: 0.94vw; /* 기존 font-size: 18px */
+  color: #333;
+}
+.underlineText {
+  font-size: 1.25vw; /* 기존 font-size: 24px */
+  font-weight: bold;
+  color: #333;
+}
+
+.underlineText span {
+  color: #ff6b6b;
+  text-decoration: underline;
+}
+.taglineText {
+  font-size: 0.83vw; /* 기존 font-size: 16px */
+  margin-top: 10px;
+  color: #666;
+}
+
+.subtext {
+  font-size: 0.73vw;
+  color: #999;
+}
+.betterTomorrowBetterContainer {
+  position: absolute;
+  top: 59.5vh;
+  left: 42.19vw;
+  font-size: 0.88vw;
+  color: #555;
+  font-family: 'Lao Muang Khong';
+}
+.div12 {
+  position: absolute;
+  top: 50.8vh;
+  left: 41.23vw;
+  font-size: 0.9vw;
+  color: #777;
+}
+/* 비타민 밑줄 */
+.child8 {
+  position: absolute;
+  top: 57.2vh;
+  left: 57.25vw;
+  background-color: #faeeab;
+  width: 11.5vw;
+  height: 1.06vh;
+}
+.span {
+  font-weight: 500;
+}
+.b {
+  font-family: Lato;
+}
+.span2 {
+  font-weight: 800;
+}
+.span1 {
+  color: #ff713c;
+}
+.div13 {
+  position: absolute;
+  top: 54.11vh;
+  left: 43.28vw;
+  font-size: 1.64vw;
+  color: #000;
+}
+/* 비타민 특징 밑줄 */
+.child9 {
+  position: absolute;
+  top: 79vh;
+  left: 11.44vw;
+  border-radius: 2px;
+  background-color: #f9ea9b;
+  width: 8vw;
+  height: 0.86vh;
+}
+.span6 {
+  color: #000;
+}
+/* 비타민 특징 */
+.div14 {
+  position: absolute;
+  top: 76.2vh;
+  left: 11.9vw;
+  font-size: 1.34vw;
+  color: #ff713c;
+}
+.mypageImg {
+  width: 33vh;
+  margin-top: 72vh;
+  margin-left: 13%;
+}
+/* 첫 번 째 특징 */
+.cesDContainer {
+  position: absolute;
+  top: 117vh;
+  left: 18%;
+  font-family: NanumGothicCoding;
+  text-align: center;
+}
+.healthPageImg {
+  width: 33vh;
+  position: absolute;
+  top: 30vh;
+  margin-top: 50vh;
+  margin-left: 42%;
+}
+/* 두 번 째 특징 */
+.div15 {
+  position: absolute;
+  top: 110vh;
+  left: 42%;
+  font-family: NanumGothicCoding;
+  text-align: center;
+}
+/* 세 번 째 특징 */
+.aiContainer {
+  position: absolute;
+  top: 117vh;
+  left: 70%;
+  font-family: NanumGothicCoding;
+  text-align: center;
+}
+
+.image77Icon {
+  position: absolute;
+  top: 77.4vh;
+  left: calc(50% - 127px);
+  width: 13.13vw;
+  height: 9.1vh;
+  object-fit: cover;
+}
+/* 지친하루를 달래줄 */
+.div16 {
+  position: absolute;
+  top: 146.9vh;
+  left: 45%;
+  font-size: 0.99vw;
+  color: #777;
+}
+.child10 {
+  position: absolute;
+  top: 153.9vh; /* 기존 top: 1199px */
+  left: 39.23vw; /* 기존 left: 448px */
+  filter: blur(15px);
+  background-color: rgba(255, 247, 133, 0.889);
+  width: 18.68vw; /* 기존 width: 205px */
+  height: 0.98vh; /* 기존 height: 15px */
+}
+.b1 {
+  font-family: Lato;
+  color: #000;
+}
+.bitaminContainer {
+  position: absolute;
+  top: 151.6vh;
+  left: calc(50% - 173px);
+  font-size: 1.35vw;
+  color: #ff713c;
+  font-family: 'Bagel Fat One';
+}
+/* 이용하기 버튼 */
+.frameDiv {
+  position: absolute;
+  top: 158.6vh;
+  margin-bottom: 10vh;
+  left: 42%;
+  border-radius: 5px;
+  background-color: #ff713c;
+  width: 15.46vw;
+  height: 5.21vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0.63vh 4.58vw;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1.3vw;
+  font-weight: 500;
+  color: #fff;
+  font-family: NanumGothic;
+  white-space: nowrap;
+}
+.backgroundContainer {
+  position: absolute;
+  background-color: #f5f5ff74;
+  padding: 5vh 0;
+  margin-top: 60vh;
+  width: 100vw;
+  height: 55vh;
+  z-index: -1;
+  top: 15vh;
+}

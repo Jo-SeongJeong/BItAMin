@@ -1,3 +1,183 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:01f58e5284784ad13aafcb51633ed8125b6f3b33806679f95a359e03f0a696a8
-size 4871
+/* 뒷 노란 배경 */
+.upChild {
+  position: absolute;
+  background-color: #f9ea9b;
+  width: 100%;
+  height: 150vh;
+}
+/* 하루홈트 뒤뒤 배경 */
+.groupChild {
+  position: absolute;
+  top: 41.5%;
+  left: 26.42%;
+  border-radius: 8px;
+  background-color: #ffefc0;
+  box-shadow: 0.28vw 0.28vw 2.31vw 0.74vw #fffedf; /* px 단위를 vw로 변경 */
+  width: 16.8vw; /* 280px을 vw 단위로 변경 */
+  height: 30.5vh; /* 274px을 vh 단위로 변경 */
+  cursor: pointer;
+}
+/* 하루요가 뒤뒤 배경 */
+.groupChildht {
+  position: absolute;
+  top: 41.5%;
+  left: 56%;
+  border-radius: 8px;
+  background-color: #ffefc0;
+  box-shadow: 0.28vw 0.28vw 2.31vw 0.74vw #fffedf; /* px 단위를 vw로 변경 */
+  width: 16.8vw; /* 280px을 vw 단위로 변경 */
+  height: 30.5vh; /* 274px을 vh 단위로 변경 */
+  cursor: pointer;
+}
+/* 마우스 올리면 생기는 네모 박스_하루홈트 */
+.groupChild3 {
+  position: absolute;
+  top: 43%;
+  left: 27%;
+  border-radius: 8px;
+  background-color: rgba(253, 245, 243, 0);
+  border: 0.65vw solid #fff; /* px 단위를 vw로 변경 */
+  box-sizing: border-box;
+  width: 15.5vw; /* 260px을 vw 단위로 변경 */
+  height: 28vh; /* 254px을 vh 단위로 변경 */
+  opacity: 50;
+  transition: opacity 0.3s ease-in-out; /* 부드러운 전환 효과 */
+}
+/* 흰 네모 박스_하루요가 */
+.groupChildht3 {
+  position: absolute;
+  top: 43%;
+  left: 56.6%;
+  border-radius: 8px;
+  background-color: rgba(253, 245, 243, 0);
+  border: 0.65vw solid #fff;
+  box-sizing: border-box;
+  width: 15.5vw; /* 260px을 vw 단위로 변경 */
+  height: 28vh; /* 254px을 vh 단위로 변경 */
+  opacity: 50;
+  transition: opacity 0.3s ease-in-out; /* 부드러운 전환 효과 */
+}
+/* 하루홈트 이미지 */
+.YogaExerciseImg {
+  width: 16vw; /* 260px을 vw 단위로 변경 */
+  height: 28vh; /* 240px을 vh 단위로 변경 */
+  margin-top: 9vh; /* 76px을 vh 단위로 변경 */
+  margin-left: 14.8vw; /* 242px을 vw 단위로 변경 */
+}
+/* 마우스 올리면 생기는 네모 박스_하루요가 */
+.groupChild2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8vw;
+}
+
+/* 하루요가 글씨 */
+.div {
+  position: absolute;
+  top: 0px;
+  left: 7.3vw;
+  cursor: pointer;
+  z-index: 10; /* 다른 요소들 위에 표시되도록 설정 */
+}
+/* 요가 사진 뒤 배경 위치 */
+.rectangleParent {
+  position: absolute;
+  position: absolute;
+  top: 41.7vh; /* 254px을 vh 단위로 변경 */
+  left: 81.5vw; /* 881px을 vw 단위로 변경 */
+  width: 23.1vw; /* 250px을 vw 단위로 변경 */
+  height: 48.2vh; /* 293px을 vh 단위로 변경 */
+}
+/* 하루요가 이미지 */
+.homeExerciseImg {
+  width: 16vw; /* 260px을 vw 단위로 변경 */
+  height: 28vh; /* 230px을 vh 단위로 변경 */
+  object-fit: cover; /* 유지 */
+  margin-top: 8.5vh; /* 88px을 vh 단위로 변경 */
+  margin-left: 44vw; /* 732px을 vw 단위로 변경 */
+  cursor: pointer;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 22%;
+  left: 0px;
+  box-shadow: 0.28vw 0.28vw 2.31vw 0.74vw #f5f5ff;
+  border-radius: 8px;
+  background-color: #f7e7f9;
+  width: 25vw; /* 270px을 vw 단위로 변경 */
+  height: 43.4vh; /* 264px을 vh 단위로 변경 */
+  cursor: pointer;
+}
+/* 하루 홈트 글씨 */
+.div1 {
+  position: absolute;
+  top: 0%;
+  left: 25%;
+  cursor: pointer;
+  z-index: 10; /* 다른 요소들 위에 표시되도록 설정 */
+}
+/* 하루 요가 글씨 */
+.div2 {
+  position: absolute;
+  top: 0%;
+  left: 61.5%;
+  cursor: pointer;
+  z-index: 10; /* 다른 요소들 위에 표시되도록 설정 */
+}
+
+.homet {
+  position: absolute;
+  top: 28vh; /* 254px을 vh 단위로 변경 */
+  left: 12.5vw; /* 204px을 vw 단위로 변경 */
+  width: 80%; /* 유지 */
+  height: 48.2vh; /* 293px을 vh 단위로 변경 */
+}
+
+.up {
+  width: 100%;
+  position: relative;
+  background-color: #fffbfa;
+  height: 88vh;
+  overflow: hidden;
+  text-align: center;
+  font-size: 2.59vh;
+  color: #000;
+  font-family: 'Ownglyph ryuttung';
+}
+
+.SMN_effect-46 a {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 0.093vw rgba(0, 0, 0, 0);
+  position: relative;
+  transition-property: color !important;
+  transition-duration: 0.5s !important;
+}
+
+.SMN_effect-46 a:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  height: 0.28vh;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  transform: scaleX(0);
+  transform-origin: 0 50%;
+  transition-property: transform !important;
+  transition-duration: 0.5s !important;
+  transition-timing-function: ease-out !important;
+}
+
+.SMN_effect-46 a:hover:before,
+.SMN_effect-46 a:focus:before,
+.SMN_effect-46 a:active:before {
+  transform: scaleX(1) !important;
+  transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66) !important;
+}

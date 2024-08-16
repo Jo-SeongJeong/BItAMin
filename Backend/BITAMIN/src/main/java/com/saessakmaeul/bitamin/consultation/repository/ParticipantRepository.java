@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:813ad29c841832bdde9b357b45ceeb00f7d3892c7a23837105bda3996940e21a
-size 926
+package com.saessakmaeul.bitamin.consultation.repository;
+
+import com.saessakmaeul.bitamin.consultation.Entity.Consultation;
+import com.saessakmaeul.bitamin.consultation.Entity.Participant;
+import com.saessakmaeul.bitamin.member.entity.Member;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.time.LocalDate;
+import java.util.List;
+import java.util.Optional;
+
+public interface ParticipantRepository extends JpaRepository<Participant, Long> {
+    List<Participant> findByConsultationId(Consultation consultationId);
+    Optional<Participant> findByMemberIdAndConsultationId(Member memberId, Consultation consultationId);
+    List<Participant> findByMemberId(Member memberId);
+    List<Participant> findByConsultationIdInAndMemberIdNotIn(List<Consultation> consultationIdList, List<Member> memberIdList);
+    Optional<Participant> findByMemberIdAndConsultationDate(Member memberId, LocalDate today);
+}

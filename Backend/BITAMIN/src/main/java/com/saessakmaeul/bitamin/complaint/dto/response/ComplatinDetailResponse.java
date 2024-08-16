@@ -1,3 +1,30 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:3b4ec386a4fb6ce78a89da48c540b840856884614e5255032de8f36d34fa474e
-size 604
+package com.saessakmaeul.bitamin.complaint.dto.response;
+
+import lombok.Builder;
+import lombok.Getter;
+
+import java.time.LocalDateTime;
+
+@Builder
+@Getter
+public class ComplatinDetailResponse {
+    private long id;
+
+    private String complainantNickname;
+
+    private String respondentNickname;
+
+    private String content;
+
+    private int category;
+
+    private LocalDateTime sendDate;
+    // 현재 정지 기간
+    private int stopDate;
+    // 역대 정지 횟수
+    private int judgementCount;
+    // 역대 정지 기간
+    private int judgementDate;
+    // 신고 type
+    private int type;
+}

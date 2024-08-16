@@ -1,3 +1,22 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:284584412df1a28d98eb86bff73f31432d213123b0e5f5a110a3e05a11be6014
-size 635
+import React from 'react'
+import './ParticipantListComponent.css' // 스타일을 추가하고 싶으면 별도의 CSS 파일을 만드세요
+
+const ParticipantListComponent = ({ subscribers, localUser }) => {
+  return (
+    <div className="participant-list">
+      <h3>Participants</h3>
+      <ul>
+        {localUser && (
+          <li key={localUser.getConnectionId()}>
+            {localUser.getNickname()} (You)
+          </li>
+        )}
+        {subscribers.map((sub, index) => (
+          <li key={sub.getConnectionId()}>{sub.getNickname()}</li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
+export default ParticipantListComponent

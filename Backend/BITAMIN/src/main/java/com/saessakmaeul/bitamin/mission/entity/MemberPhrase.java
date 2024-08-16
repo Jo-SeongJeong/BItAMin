@@ -1,3 +1,29 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:a0de211393c137e8a03be14ea1b5c1dac54970350b91bdfab8aa526e5e35d357
-size 600
+package com.saessakmaeul.bitamin.mission.entity;
+
+import jakarta.persistence.*;
+import lombok.Getter;
+import lombok.Setter;
+
+import java.time.LocalDate;
+
+@Entity
+@Getter
+@Setter
+public class MemberPhrase {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", unique = true, nullable = false)
+    private Long id;
+
+    @Column(name = "save_date")
+    private LocalDate saveDate;
+
+    @Column(name = "phrase_url")
+    private String phraseUrl;
+
+    @Column(name = "phrase_id")
+    private Long phraseId;
+
+    @Column(name = "member_id")
+    private Long memberId;
+}

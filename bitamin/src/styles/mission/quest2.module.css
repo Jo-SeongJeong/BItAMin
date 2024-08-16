@@ -1,3 +1,528 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5d514acf530998e7c08bd1f0781d7c43db26df8364af1267e0c604c6f40809b0
-size 12259
+/* 사용하지 않는 CSS 삭제한 파일 */
+.child {
+    position: absolute;
+    top: 4.5625rem; /* 73px을 rem으로 변환 (1rem = 16px 기준) */
+    left: 0;
+    background-color: #fff;
+    width: 64rem; /* 1024px을 rem으로 변환 */
+    height: 19.125rem; /* 306px을 rem으로 변환 */
+}
+
+.item {
+    position: absolute;
+    top: 24.4375rem; /* 391px을 rem으로 변환 */
+    left: 23.9375rem; /* 383px을 rem으로 변환 */
+    border-radius: 1.25rem; /* 20px을 rem으로 변환 */
+    background-color: #f8f5dd;
+    width: 37.5625rem; /* 601px을 rem으로 변환 */
+    height: 22.9375rem; /* 367px을 rem으로 변환 */
+}
+
+.div1 {
+    position: absolute;
+    top: 43.75rem; /* 700px을 rem으로 변환 */
+    left: calc(50% + 7.5625rem); /* 121px을 rem으로 변환 */
+    border-radius: 0.1875rem; /* 3px을 rem으로 변환 */
+    background-color: #fc7c4c;
+    width: 6.25rem; /* 100px을 rem으로 변환 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.625rem; /* 10px을 rem으로 변환 */
+    box-sizing: border-box;
+    cursor: pointer;
+    font-family: NanumGothicCoding;
+}
+
+.b1 {
+    position: absolute;
+    top: 26.875rem; /* 430px을 rem으로 변환 */
+    left: 75.1875rem; /* 1203px을 rem으로 변환 */
+    font-size: 1.125rem; /* 18px을 rem으로 변환 */
+    color: #000;
+}
+
+.inner {
+    position: absolute;
+    top: 30.25rem; /* 484px을 rem으로 변환 */
+    left: 39.4375rem; /* 631px을 rem으로 변환 */
+    width: 19.125rem; /* 306px을 rem으로 변환 */
+    height: 11.25rem; /* 180px을 rem으로 변환 */
+}
+
+.frameGroup {
+    position: absolute;
+    top: 25.8125rem; /* 413px을 rem으로 변환 */
+    left: 30.1875rem; /* 483px을 rem으로 변환 */
+    border-radius: 0.625rem; /* 10px을 rem으로 변환 */
+    background-color: #fff;
+    width: 25.0625rem; /* 401px을 rem으로 변환 */
+    height: 2.25rem; /* 36px을 rem으로 변환 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 1rem; /* 16px을 rem으로 변환 */
+}
+
+.inner1 {
+    position: absolute;
+    top: 29.375rem; /* 470px을 rem으로 변환 */
+    left: 25.5rem; /* 408px을 rem으로 변환 */
+    box-shadow: 0.25rem 0.25rem 1.5625rem rgba(92, 92, 92, 0.25); /* 4px 4px 25px을 rem으로 변환 */
+    border-radius: 0.5rem; /* 8px을 변환 */
+    background-color: #f1f1f5;
+    width: 12rem; /* 192px을 변환 */
+    height: 10.75rem; /* 172px을 변환 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.625rem; /* 10px을 변환 */
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 0.5rem; /* 8px을 변환 */
+    color: #555;
+    font-family: Inter;
+}
+
+.bitamin {
+    width: 8.5rem; /* 136px을 변환 */
+    position: relative;
+    font-size: 2rem; /* 32px을 변환 */
+    font-family: 'Bagel Fat One';
+    text-align: left;
+    display: inline-block;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.wrapper42 {
+    width: 4.5625rem; /* 73px을 변환 */
+    height: 1.4375rem; /* 23px을 변환 */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.rectangleDiv {
+    width: 3.125rem; /* 50px을 변환 */
+    position: relative;
+    border-radius: 0.125rem; /* 2px을 변환 */
+    background-color: rgba(252, 124, 76, 0.74);
+    height: 0.125rem; /* 2px을 변환 */
+    opacity: 0;
+}
+
+.div95 {
+    width: 3.75rem; /* 60px을 변환 */
+    height: 4.625rem; /* 74px을 변환 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3125rem; /* 5px을 변환 */
+    box-sizing: border-box;
+    gap: 0.3125rem; /* 5px을 변환 */
+    cursor: pointer;
+}
+
+.child1 {
+    width: 3.125rem; /* 50px을 변환 */
+    position: relative;
+    border-radius: 0.125rem; /* 2px을 변환 */
+    background-color: rgba(252, 124, 76, 0.74);
+    height: 0.125rem; /* 2px을 변환 */
+}
+
+.div97 {
+    width: 3.75rem; /* 60px을 변환 */
+    height: 4.625rem; /* 74px을 변환 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3125rem; /* 5px을 변환 */
+    box-sizing: border-box;
+    gap: 0.3125rem; /* 5px을 변환 */
+    cursor: pointer;
+    color: #000;
+}
+
+.up {
+    width: 1.375rem; /* 22px을 변환 */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.0625rem; /* 33px을 변환 */
+    flex-shrink: 0;
+}
+
+.upWrapper {
+    width: 1.6875rem; /* 27px을 변환 */
+    height: 2.25rem; /* 36px을 변환 */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: -0.25rem; /* -4px을 변환 */
+    color: #ff713c;
+    font-family: 'Ownglyph ryuttung';
+}
+
+.parent9 {
+    width: 4.5625rem; /* 73px을 변환 */
+    height: 1.4375rem; /* 23px을 변환 */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.parent8 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem; /* 80px을 변환 */
+    color: #777;
+}
+
+.personcircleIcon {
+    width: 1.1875rem; /* 19px을 변환 */
+    position: relative;
+    height: 1.1875rem; /* 19px을 변환 */
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.span1 {
+    font-size: 0.75rem; /* 12px을 변환 */
+}
+
+.span {
+    font-family: NanumBarunpen;
+    font-size: 1.0625rem; /* 17px을 변환 */
+}
+
+.txt {
+    width: 100%;
+}
+
+.div102 {
+    width: 3.3125rem; /* 53px을 변환 */
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 1.5rem; /* 24px을 변환 */
+    flex-shrink: 0;
+}
+
+.wrapper44 {
+    height: 1.5625rem; /* 25px을 변환 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.vectorIcon1 {
+    width: 0.5625rem; /* 9px을 변환 */
+    position: relative;
+    height: 0.375rem; /* 6px을 변환 */
+}
+
+.vectorWrapper {
+    width: 0.5625rem; /* 9px을 변환 */
+    height: 1.1875rem; /* 19px을 변환 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0.3125rem 0; /* 5px을 변환 */
+    box-sizing: border-box;
+}
+
+.frameParent1 {
+    width: 4.5rem; /* 72px을 변환 */
+    height: 1.1875rem; /* 19px을 변환 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.25rem; /* 4px을 변환 */
+}
+
+.personcircleParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.4375rem; /* 7px을 변환 */
+}
+
+.icon {
+    width: 1.1875rem; /* 19px을 변환 */
+    position: relative;
+    height: 1.23125rem; /* 19.7px을 변환 */
+}
+
+.wrapper45 {
+    height: 1.5rem; /* 24px을 변환 */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+.frameContainer {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.375rem; /* 6px을 변환 */
+}
+
+.div101 {
+    width: 7.75rem; /* 124px을 변환 */
+    height: 6.125rem; /* 98px을 변환 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+
+.navbar {
+    position: absolute;
+    top: -0.0625rem; /* -1px을 변환 */
+    left: 2.4375rem; /* 39px을 변환 */
+    background-color: #fff;
+    width: 59rem; /* 944px을 변환 */
+    height: 4.625rem; /* 74px을 변환 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5.875rem; /* 94px을 변환 */
+    color: #ff713c;
+}
+
+.frameIcon {
+    position: absolute;
+    top: 5.4375rem; /* 87px을 변환 */
+    left: 2.5rem; /* 40px을 변환 */
+    border-radius: 0.5rem; /* 8px을 변환 */
+    width: 59rem; /* 944px을 변환 */
+    height: 17.375rem; /* 278px을 변환 */
+    object-fit: cover;
+}
+
+.div {
+    width: 100%;
+    position: relative;
+    background-color: #fffbfa;
+    height: 48rem; /* 768px을 변환 */
+    overflow: hidden;
+    text-align: center;
+    font-size: 0.875rem; /* 14px을 변환 */
+    color: #fff;
+    font-family: NanumGothic;
+    display: flex;
+    justify-content: center; /* 가로로 중앙 정렬 */
+    align-items: center; /* 세로로 중앙 정렬 */
+}
+
+.b {
+    position: relative;
+}
+
+.div92 {
+    position: relative;
+    font-size: 0.875rem; /* 14px을 변환 */
+    text-align: right;
+}
+
+.parent6 {
+    align-self: stretch;
+    width: 6.25rem; /* 100px을 변환 */
+    border-radius: 0.625rem 0 0 0.625rem; /* 10px 0px 0px 10px을 변환 */
+    background-color: rgba(255, 113, 60, 0.9);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.div93 {
+    flex: 1;
+    position: relative;
+}
+
+.parent7 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.75rem; /* 12px을 변환 */
+}
+
+.frameWrapper {
+    align-self: stretch;
+    flex: 1;
+    border-radius: 0 0.625rem 0.625rem 0; /* 0px 10px 10px 0px을 변환 */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #000;
+}
+
+.imageAddIcon {
+    position: absolute;
+    top: 0;
+    left: 1.125rem; /* 18px을 변환 */
+    width: 1.9375rem; /* 31px을 변환 */
+    height: 1.875rem; /* 30px을 변환 */
+}
+
+.div94 {
+    position: absolute;
+    top: 2rem; /* 32px을 변환 */
+    left: 0;
+    letter-spacing: -0.18px;
+    line-height: 1.375rem; /* 22px을 변환 */
+    font-weight: 600;
+}
+
+.imageAddParent {
+    width: 4.1875rem; /* 67px을 변환 */
+    position: relative;
+    height: 3.375rem; /* 54px을 변환 */
+}
+
+/* 새로운 CSS */
+.customContainer {
+    display: flex;
+    justify-content: center; /* 가로로 중앙 정렬 */
+    align-items: center; /* 세로로 중앙 정렬 */
+    height: 100%; /* 부모 컨테이너의 전체 높이를 차지하도록 설정 */
+}
+
+
+/* 새로운 CSS */
+.customContainer {
+    display: flex;
+    justify-content: center; /* 가로로 중앙 정렬 */
+    align-items: center; /* 세로로 중앙 정렬 */
+    height: 100%; /* 부모 컨테이너의 전체 높이를 차지하도록 설정 */
+}
+
+/* MainQuestPage 컴포넌트의 스타일 */
+.styles2__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.styles2__selectedDay {
+    background-color: #007BFF;
+    color: white;
+}
+
+.styles2__sunday {
+    color: red;
+}
+
+.styles2__saturday {
+    color: blue;
+}
+
+.styles2__calendarContainer {
+    margin-top: 20px;
+}
+
+.styles2__customCalendar {
+    border: 1px solid #ccc;
+}
+
+/* 날씨 관련 추가 스타일 */
+.weatherContainer {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 20px;
+    color: black; /* 텍스트 색상을 명확하게 보이도록 설정 */
+    z-index: 1000;
+}
+
+.weatherButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+
+/* mission/quest2.module.css */
+.hasMission::after {
+    content: '•';
+    color: red;
+    position: absolute;
+    bottom: 0.2em;
+    right: 0.2em;
+    font-size: 1.2em;
+    line-height: 1;
+}
+
+.disabledDay {
+    pointer-events: none;
+    opacity: 0.5;
+    cursor: default;
+}
+
+.disabledDay:hover {
+    background-color: transparent;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 7px;
+    border-bottom: 1.4px solid #b1b1b1;
+}
+
+.prevButton {
+    margin-left: 70px;
+    font-weight: bold;
+}
+
+.nextButton {
+    margin-right: 70px;
+    font-weight: bold;
+}
+
+.currentMonth {
+    flex-grow: 1;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}

@@ -1,3 +1,62 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:918322923fc23dfbb12cde144246f061c694f1d3710fac5efebc729bbdee308b
-size 1034
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2000;
+}
+
+.modalContent {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+    z-index: 2100;
+    border: 3px solid #ccc;
+}
+
+.closeButton {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    border: none;
+    background: #f18282;
+    border-radius: 10%;
+    width: 40px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+
+.closeButton:hover {
+    background: #ff9191;
+}
+
+.closeButton:active {
+    transform: scale(0.9);
+}
+
+.info {
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.content {
+    margin-top: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+

@@ -1,3 +1,169 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1a6d23b64be9235361c10a7f9ae7623b3b796d82749bdd2ef3d6eea09c136418
-size 2481
+.div {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #fffbfa;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+  color: #ff713c;
+  font-family: NanumGothic;
+}
+
+.backred {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  top: 0;
+  background-color: #f9ea9b;
+}
+
+.component66 {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+  font-size: 0.5rem;
+  color: #333;
+}
+
+.component63 {
+  margin-top: 140px;
+  margin-bottom: 20px;
+  font-size: 0.5rem;
+}
+
+.b {
+  display: block;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.bitamin1 {
+  font-size: 1.1rem;
+  color: rgb(98, 98, 98);
+}
+/* 로그인 박스 뒤 흰 배경 */
+.component65 {
+  position: relative;
+  background-color: #fff;
+  padding: 60px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 500px;
+  left: -18px;
+  height: 600px;
+}
+
+.component65Child,
+.component61Child {
+  display: none;
+}
+
+.div11 {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+/* 로그인 회원가입 버튼 */
+.component55Child,
+.component56Child {
+  background-color: #ff713c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20 px;
+}
+
+.component56Child {
+  background-color: #fff;
+  border: 1px solid #ff713c;
+  color: #ff713c;
+}
+
+.component60 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.component58,
+.component59,
+.component57 {
+  flex: 1;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.reactIconssisinaver,
+.reactIconsfcfcgoogle,
+.component57Child {
+  width: 100%;
+  height: auto;
+}
+
+.div13 {
+  font-size: 0.875rem;
+  margin-top: 10px;
+}
+
+.div15 {
+  font-size: 0.875rem;
+  margin-top: 10px;
+}
+
+/* 반응형 미디어 쿼리 */
+@media (max-width: 768px) {
+  .component66 {
+    width: 95%;
+    font-size: 1.2rem;
+  }
+
+  .b {
+    font-size: 1.5rem;
+  }
+
+  .bitamin1 {
+    font-size: 0.875rem;
+  }
+
+  .component55Child,
+  .component56Child {
+    font-size: 0.875rem;
+    padding: 8px;
+  }
+
+  .component60 {
+    flex-direction: column;
+  }
+
+  .component58,
+  .component59,
+  .component57 {
+    margin: 10px 0;
+  }
+
+  .div13,
+  .div15 {
+    font-size: 0.75rem;
+  }
+}
+
+.loginIcon {
+  max-width: 100%;
+  max-height: 40px;
+  height: auto;
+  width: auto;
+}

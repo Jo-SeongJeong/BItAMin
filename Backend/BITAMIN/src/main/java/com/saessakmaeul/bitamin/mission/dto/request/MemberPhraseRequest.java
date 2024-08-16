@@ -1,3 +1,23 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e6c53ce78276282fc9b1e0d03fb125644cba856509e663038ab86104f517cbac
-size 603
+package com.saessakmaeul.bitamin.mission.dto.request;
+
+import lombok.Builder;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+import org.springframework.web.multipart.MultipartFile;
+
+@Getter
+@Setter
+@NoArgsConstructor
+public class MemberPhraseRequest {
+    private Long phraseId;
+    private String saveDate;
+    private MultipartFile phraseRecord;
+
+    @Builder
+    public MemberPhraseRequest(Long phraseId, String saveDate, MultipartFile phraseRecord) {
+        this.phraseId = phraseId;
+        this.saveDate = saveDate;
+        this.phraseRecord = phraseRecord;
+    }
+}

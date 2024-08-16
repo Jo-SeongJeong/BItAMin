@@ -1,3 +1,496 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:376d9b835841cfe7961e8416c8d2584c0b048738b0d2e1d8b5d52ee7c9520111
-size 10772
+/* 뒤 배경 노란 이미지 */
+.child {
+  position: absolute;
+  left: 0px;
+  box-shadow: 0.37vw 0.37vw 2.78vw rgba(0, 0, 0, 0.25);
+  background-color: #f9ea9b;
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  justify-content: flex-start; /* 왼쪽 정렬 */
+  align-items: center;
+  padding-left: 5vw; /* 왼쪽 여백 추가 */
+}
+/* 이미지 클릭 */
+.item {
+  position: relative;
+  box-shadow: 0.37vw 0.37vw 2.31vw rgba(92, 92, 92, 0.25);
+  border-radius: 0.74vw;
+  background-color: #f1f1f5;
+  width: 26.48vw;
+  height: 25.74vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+/* 입력 필드 스타일 */
+.inputField {
+  font-size: 1.3vh;
+  font-family: NanumGothic;
+  color: #555;
+  padding: 0.36vh;
+  border: 0.09vw solid #ddd;
+  border-radius: 0.37vw;
+  box-sizing: border-box;
+}
+.categoryContent {
+  font-size: 1.3vh;
+  color: #555; /* 동일한 색상 */
+  /* 다른 스타일들 */
+}
+
+.inputField {
+  font-size: 14px; /* 동일한 글씨 크기 */
+  color: #555; /* 동일한 색상 */
+  /* 다른 스타일들 */
+}
+
+/* 유저 정보 */
+.frameParent {
+  position: absolute;
+  top: 13.8%;
+  left: 60%;
+  width: 37.31vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.39vh;
+  font-size: 1.39vh;
+  color: rgba(0, 0, 0, 0.5);
+  font-family: Inter;
+}
+/* 밑줄 */
+.inner {
+  position: absolute;
+  top: 10.5%;
+  left: 60%;
+  border-radius: 0.18vw;
+  background-color: rgba(252, 124, 76, 0.72);
+  width: 7.07vw;
+  height: 0.75vh;
+}
+/* 마이페이지 글씨 */
+.div4 {
+  position: absolute;
+  top: 9%;
+  left: 60%;
+  font-size: 2.5vh;
+  letter-spacing: -0.015vw;
+  line-height: 1.48vh;
+  color: #333;
+}
+.imageAddIcon {
+  position: absolute;
+  top: 212px;
+  left: 233px;
+  width: 31px;
+  height: 30px;
+}
+.div6 {
+  position: relative;
+  white-space: nowrap; /* 텍스트를 일렬로 표시 */
+}
+/* 이미지 컨테이너 스타일 */
+.item {
+  position: absolute;
+  top: 8%;
+  left: 20%;
+  box-shadow: 0.37vw 0.37vw 2.31vw rgba(92, 92, 92, 0.25);
+  border-radius: 0.74vw;
+  background-color: #f1f1f5;
+  width: 22.78vw;
+  height: 38.78vh;
+  overflow: hidden;
+  margin-left: 7.26vw;
+  margin-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* 이미지 스타일 */
+.item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+/* 비밀번호 변경 버튼 */
+.container {
+  position: relative; /* absolute에서 relative로 변경 */
+  margin-top: 1.85vh; /* 주소 아래로 위치하도록 마진 조정 */
+  border-radius: 0.93vw;
+  background-color: #fff;
+  border: 0.09vw solid #ff713c;
+  box-sizing: border-box;
+  width: 13.61vw;
+  height: 2.78vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-align: center;
+  color: #493cff;
+}
+/* 정보 수정 버튼 */
+button {
+  position: relative; /* absolute에서 relative로 변경 */
+}
+.buttonContainer {
+  display: flex;
+  gap: 1.39vh;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.buttonStyle {
+  background-color: #fff;
+  border: 0.09vw solid #ff713c;
+  box-sizing: border-box;
+  border-radius: 0.93vw;
+  padding: 0.74vh 2.96vw;
+  cursor: pointer;
+  text-align: center;
+  color: #ff713c;
+  height: 3.7vh; /* 동일한 높이 설정 */
+  width: 9.61vw; /* 비밀번호 변경 버튼에 맞춘 동일한 너비 설정 */
+  display: flex; /* 컨텐츠를 가운데 정렬하기 위해 flex 사용 */
+  align-items: center; /* 텍스트 수직 정렬 */
+  justify-content: center; /* 텍스트 수평 정렬 */
+  margin-top: 0;
+}
+
+/* 검진 결과 */
+.rectangleDiv {
+  position: absolute;
+  top: 51.6%;
+  left: 59%;
+  background-color: #f1f1f5;
+  width: 33vw;
+  height: auto; /* 내용에 따라 자동으로 높이 조절 */
+  padding: 1.85vh; /* 내부 여백 추가 */
+  border-radius: 0.74vw; /* 모서리 둥글게 */
+}
+/* 점수 텍스트 */
+.div8 {
+  font-size: 1.67vh;
+  letter-spacing: 0.046vw;
+  line-height: 1.48vh;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #000;
+  margin-bottom: 1.5vh;
+  text-align: left;
+}
+
+/* 결과 섹션 컨테이너 */
+.resultContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* 왼쪽 정렬 */
+  padding: 1.85vh; /* 패딩 추가 */
+}
+
+/* 검사 결과 제목 */
+.div10 {
+  font-size: 2.5vh;
+  letter-spacing: 0.046vw;
+  line-height: 2.22vh;
+  font-family: Roboto;
+  color: #000;
+  margin-bottom: 3vh; /* 간격 추가 */
+  text-align: left; /* 왼쪽 정렬 */
+}
+.span {
+  line-height: 2.22vh;
+}
+.span1 {
+  font-size: 1.11vh;
+  line-height: 1.48vh;
+  font-weight: 500;
+}
+/* 점수 숫자 */
+.div11 {
+  font-size: 2.13vh;
+  font-family: Roboto;
+  color: #000;
+  margin-bottom: 2vh; /* 간격 추가 */
+  text-align: left; /* 왼쪽 정렬 */
+}
+/* 설명 텍스트 */
+.div12 {
+  font-size: 1.7vh;
+  letter-spacing: 0.15vw;
+  line-height: 1.48vh;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #333;
+  text-align: left; /* 왼쪽 정렬 */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  line-height: 1.94vh;
+  white-space: pre-line;
+}
+/* 지도 감싸는 박스 */
+.child1 {
+  position: absolute;
+  top: 122.4vh;
+  left: calc(50% - 29.5vw);
+  box-shadow: 0 0.09vh 4.63vh rgba(119, 119, 119, 0.16);
+  border-radius: 0.93vw;
+  background-color: #fff;
+  width: 58.89vw;
+  height: 155.09vh;
+}
+/* 지도 */
+.mapWrapper {
+  position: absolute;
+  top: 128.4vh;
+  left: calc(50% - 29.5vw);
+  width: 58.8vw;
+  height: 304px;
+  object-fit: cover;
+}
+.txt {
+  width: 100%;
+}
+/* 정신건강의학과 글씨 */
+.div66 {
+  position: absolute;
+  top: 124vh;
+  left: calc(50% - 28vw);
+  font-size: 2.3vh;
+  text-align: center;
+  color: #333;
+}
+
+/* 나의 차트 섹션 */
+.div48 {
+  position: absolute;
+  top: 47vh; /* 이미지와 같은 수평선상에 배치 */
+  left: 51.85vw; /* 원하는 위치로 조정 */
+  font-size: 1.48vh;
+  letter-spacing: 0.046vw;
+  line-height: 1.48vh;
+  font-weight: 500;
+  font-family: Roboto;
+  color: #000;
+  text-align: center;
+}
+
+/* 차트 */
+.chartParent {
+  position: absolute;
+  top: 62%; /* 이미지와 같은 수평선상에 배치 */
+  left: 560px; /* 원하는 위치로 조정 */
+  width: 490px;
+  height: 259px;
+}
+/* 나의 차트 뒤 주황 배경 */
+.div {
+  width: 100%;
+  position: relative;
+  background-color: #fffbfa;
+  min-height: 100vh; /* 최소 높이를 뷰포트 높이로 설정 */
+  padding-bottom: 50px; /* 아래쪽에 공간 추가 */
+  text-align: left;
+  font-size: 14px;
+  color: #555;
+  font-family: NanumGothic;
+}
+
+/* 카테고리 제목 스타일 */
+.categoryTitle {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  width: 100px; /* 고정 너비 */
+  text-align: left; /* 왼쪽 정렬 */
+}
+
+/* 카테고리 내용 스타일 */
+.categoryContent {
+  font-size: 14px;
+  color: #555;
+  /* margin-bottom: 15px; */
+}
+
+/* 카테고리 전체 컨테이너 */
+.categoryContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+/* 카테고리 행을 가로로 정렬 */
+.categoryRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 8px; /* 각 행 사이의 간격 */
+}
+/* 병원 목록 스타일 */
+.hospitalList {
+  display: flex;
+  flex-wrap: wrap; /* 항목들이 줄 바꿈 되도록 설정 */
+  gap: 20px; /* 항목 사이의 간격 설정 */
+}
+
+/* 차트 컨테이너 */
+.chartContainer {
+  position: relative;
+  margin-top: 1.85vh; /* 결과 섹션 아래에 적당한 간격 추가 */
+  background-color: #fff;
+  border-radius: 0.74vw;
+  box-shadow: 0 0.37vw 0.93vw rgba(0, 0, 0, 0.1);
+  padding: 0.93vh; /* 내부 여백 추가 */
+  width: 100%; /* 차트가 전체 너비를 차지하도록 설정 */
+  max-width: 88.06vh; /* 최대 너비 설정 */
+  height: 51.66vh; /* 차트 높이 설정 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 62vh;
+  left: 8%;
+}
+
+/* 차트 제목 */
+.chartTitle {
+  font-size: 1.85vh;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1.85vh;
+  text-align: center; /* 제목을 중앙 정렬 */
+}
+
+/* 차트 레이아웃 */
+.chartParent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/* 차트의 각 요소 스타일 */
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5,
+.vectorIcon6,
+.vectorIcon7,
+.vectorIcon8,
+.vectorIcon9,
+.vectorIcon14 {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* x축과 y축 라벨 스타일 */
+.xAxisLabel,
+.yAxisLabel {
+  font-size: 1.3vh;
+  font-weight: 500;
+  color: #555;
+}
+
+/* y축 눈금 스타일 */
+.yAxisTick {
+  font-size: 1.11vh;
+  color: #777;
+}
+
+/* x축 눈금 스타일 */
+.xAxisTick {
+  font-size: 1.11vh;
+  color: #777;
+}
+
+/* Tooltip 스타일 */
+.tooltipContent {
+  background-color: #fff;
+  border: 0.09vw solid #ddd;
+  padding: 0.46vh;
+  border-radius: 0.37vw;
+}
+
+/* 차트 선 스타일 */
+.lineChartPath {
+  stroke-width: 0.18vw;
+  stroke: #ff713c;
+}
+
+/* 차트 포인트 스타일 */
+.lineChartPoint {
+  /* r: 0.37vw; */
+  fill: #ff713c;
+  stroke: #fff;
+  stroke-width: 0.18vw;
+}
+
+/* 중간 네모 */
+.div {
+  width: 100%;
+  position: relative;
+  background-color: #fffbfa;
+  min-height: 120vh; /* 최소 높이를 뷰포트 높이로 설정 */
+  padding-bottom: 50px; /* 아래쪽에 공간 추가 */
+  text-align: left;
+  font-size: 14px;
+  color: #555;
+  font-family: NanumGothic;
+}
+.imageWrapper {
+  position: relative;
+  display: inline-block;
+}
+
+/* 삭제 x 버튼 */
+.deleteButton {
+  position: absolute;
+  top: 1.5vh;
+  right: 0.46vh;
+  background-color: rgb(249, 95, 95);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 2.31vh;
+  height: 2.31vh;
+  cursor: pointer;
+  font-weight: bold;
+  line-height: 2.31vh;
+  text-align: center;
+}
+.deleteButton:hover {
+  background-color: darkred;
+}
+/* 입력란을 감싸는 컨테이너 */
+.frameParent {
+  display: flex;
+  flex-direction: column; /* 세로로 입력란이 나열되도록 설정 */
+  align-items: flex-start; /* 입력란이 왼쪽 정렬되도록 설정 */
+  justify-content: flex-start;
+  gap: 1.39vh; /* 각 입력란 사이의 간격을 더 넓게 설정 */
+  width: 100%; /* 컨테이너가 전체 너비를 차지하도록 설정 */
+}
+
+/* 컨테이너 안의 각 항목 */
+.categoryContainer {
+  display: flex;
+  flex-direction: row; /* 라벨과 입력란이 가로로 배치되도록 설정 */
+  align-items: center; /* 라벨과 입력란이 수직으로 가운데 정렬되도록 설정 */
+  width: 100%; /* 컨테이너가 전체 너비를 차지하도록 설정 */
+  margin-bottom: 0.93vh; /* 각 항목 사이에 간격 추가 */
+}

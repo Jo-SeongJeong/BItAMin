@@ -1,3 +1,31 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:b597e171206e161a3e00622fbef793789fab5ca0c6523ef2667394ec3d71130b
-size 627
+package com.saessakmaeul.bitamin.member.entity;
+
+import jakarta.persistence.*;
+import lombok.*;
+
+import java.time.LocalDate;
+import java.util.Date;
+
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@Entity
+@Table(name = "health_report")
+public class HealthReport {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "checkup_score")
+    private int checkupScore;
+
+    @Column(name = "checkup_date")
+    private LocalDate checkupDate;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "member_id", nullable = false)
+    private Member member;
+}

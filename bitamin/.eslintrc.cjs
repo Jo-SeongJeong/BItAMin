@@ -1,3 +1,25 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:e58e5c22096acf75ec9530b8649612e74e7bcff478fb3d0001ddccb64bce8bb0
-size 534
+module.exports = {
+  parser: '@typescript-eslint/parser',
+  extends: [
+    'plugin:react/recommended',
+    'plugin:@typescript-eslint/recommended',
+    'prettier',
+    'plugin:storybook/recommended',
+    'plugin:storybook/recommended',
+  ],
+  plugins: ['react', '@typescript-eslint', 'prettier'],
+  rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
+    'react/react-in-jsx-scope': 'off', // React 자동 import
+  },
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
+}

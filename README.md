@@ -2,7 +2,7 @@
 
 모듈 다운
 ```
-npm i
+npm i --force
 ```
 
 실행

@@ -1,3 +1,154 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:016b2e22d371908fba810975950aaf9d890edd43696ad3e27dff2e1f0bfbd14b
-size 3012
+.div {
+  width: 100%;
+  /* margin-top: 10%; */
+  position: relative;
+  background-color: #fff;
+  height: 88vh;
+  overflow: hidden;
+  text-align: center;
+  font-size: 2.08vh;
+  color: #000;
+  font-family: 'Bagel Fat One';
+}
+
+.child {
+  position: absolute;
+  left: 0px;
+  background-color: rgba(255, 200, 0, 0.02);
+  width: 100%;
+  height: 100%;
+}
+.item {
+  position: absolute;
+  background-color: rgba(249, 234, 155, 0.84);
+  width: 100%;
+  height: 0.65vh;
+}
+.wrapper {
+  align-self: stretch;
+  height: 3.91vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 1.3vh;
+  box-sizing: border-box;
+}
+/* 신고 내역 애 */
+.inner {
+  position: absolute;
+  top: 2.6vh;
+  left: 20%;
+  background-color: #ffc72cda;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  position: relative;
+}
+.textWrapper {
+  align-self: stretch;
+  border-radius: 0.65vh 0.65vh 0px 0px;
+  background-color: #f9ea9b;
+  border-bottom: 0.13vh solid #333;
+  box-sizing: border-box;
+  height: 2.6vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 1.3vh;
+  text-align: left;
+  font-size: 2.44vh;
+}
+.textContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.column0Inner {
+  align-self: stretch;
+  border-bottom: 0.13vh solid #333;
+  box-sizing: border-box;
+  height: 3.25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0px 1.3vh;
+}
+.column0 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: right;
+}
+.textWrapper15 {
+  align-self: stretch;
+  border-radius: 0.65vh 0.65vh 0px 0px;
+  background-color: #f9ea9b;
+  border-bottom: 0.13vh solid #333;
+  box-sizing: border-box;
+  height: 2.6vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 1.3vh;
+  font-size: 2.34vh;
+}
+.textWrapper16 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.column1Inner {
+  align-self: stretch;
+  border-bottom: 0.13vh solid #333;
+  box-sizing: border-box;
+  height: 3.25vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 1.3vh;
+}
+.column1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.column2 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+/* 신고 표 */
+.table {
+  position: absolute;
+  top: 10.15vh;
+  left: 20%;
+  width: 60%;
+  height: 54.69vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  cursor: pointer;
+  text-align: left;
+  color: #333;
+  font-family: NanumBarunpen;
+}

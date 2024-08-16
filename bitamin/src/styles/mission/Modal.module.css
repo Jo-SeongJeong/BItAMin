@@ -1,3 +1,66 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:25fd4f3810556e84c6f6c2f863a93816d9faae56dcdd9538fbd246bc13281bbe
-size 1508
+.modalOverlay {
+    position: fixed;
+    top: 40px;
+    left: auto;
+    right: 20px; /* 오른쪽에서 20px 떨어진 위치 */
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/*모달 페이지 가운데로 위치시키는 css*/
+/*.modalOverlay {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background: rgba(0, 0, 0, 0.6); !* 배경을 더 어둡게 *!*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    z-index: 1000;*/
+/*    backdrop-filter: blur(5px); !* 배경 흐림 효과 *!*/
+/*}*/
+
+
+.modalContent {
+    background: white;
+    padding: 30px; /* 패딩을 더 넉넉하게 */
+    border-radius: 12px; /* 모서리 더 둥글게 */
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* 그림자 추가 */
+    animation: fadeIn 0.3s ease-out; /* 부드럽게 등장하는 애니메이션 */
+}
+
+.modalContent h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.modalContent p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.modalContent button {
+    background-color: #edc75a;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.modalContent button:hover {
+    background-color: #d7ac30;
+}

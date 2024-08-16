@@ -1,3 +1,393 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:95e95d7cf830cfebb25818abe917f600d93168ee05d2630f1a9421e08e05d5b7
-size 6794
+.container {
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  height: 768px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  /* font-family: NanumGothicCoding; */
+}
+
+.innerSection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner {
+  position: absolute;
+  top: 73px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(249, 234, 155, 0.84);
+  width: 100%;
+  height: 306px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.p {
+  margin: 0;
+}
+
+.div3 {
+  font-size: 28px;
+  font-family: 'Ownglyph ryuttung';
+  color: #333;
+  text-align: center;
+}
+
+.recordBackgroundImg {
+  position: absolute;
+  top: 340px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 30px;
+  width: 180px;
+}
+
+.recordBtns {
+  position: absolute;
+  top: 340px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.recordBtn {
+  width: 27px;
+  cursor: pointer;
+}
+
+.mainImg {
+  position: absolute;
+  top: 99px;
+  right: 0;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  z-index: 10;
+  cursor: pointer;
+  animation: zoom 1s ease-in-out 3; /* 애니메이션 1초 동안 3번 반복 */
+}
+
+.mainImg2 {
+  position: absolute;
+  top: 99px;
+  right: 0;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  z-index: 1000;
+}
+
+.clickmeImg {
+  position: absolute;
+  top: 99px;
+  transform: rotate(10deg);
+  right: 170px;
+  width: 145px;
+  height: 50px;
+  object-fit: cover;
+  z-index: 10;
+  cursor: pointer;
+  border: 6px solid #ffffff; /* 테두리 두께와 색상 설정 */
+  border-radius: 8px; /* 테두리 모서리를 둥글게 설정 (옵션) */
+  animation: shake 0.5s ease-in-out 6; /* 애니메이션 0.5초 동안 여섯 번 반복 */
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.8); /* 빛나는 효과 추가 */
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(10deg) translateX(0); /* 원래 위치 */
+  }
+  25% {
+    transform: rotate(10deg) translateX(-10px); /* 왼쪽으로 이동 */
+  }
+  50% {
+    transform: rotate(10deg) translateX(10px); /* 오른쪽으로 이동 */
+  }
+  75% {
+    transform: rotate(10deg) translateX(-10px); /* 왼쪽으로 이동 */
+  }
+  100% {
+    transform: rotate(10deg) translateX(0); /* 원래 위치로 돌아옴 */
+  }
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1); /* 원래 크기 */
+  }
+  50% {
+    transform: scale(1.1); /* 10% 확대 */
+  }
+  100% {
+    transform: scale(1); /* 원래 크기로 돌아옴 */
+  }
+}
+
+.consultSection,
+.questSection {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.consultBox {
+  position: absolute;
+  top: 434px;
+  left: 50%;
+  transform: translateX(-150%);
+  box-shadow: 2px 2px 19.5px rgba(255, 238, 234, 0.25);
+  border-radius: 35px;
+  background-color: #ffefc0;
+  width: 277px;
+  height: 249px;
+}
+
+.questBox {
+  position: absolute;
+  top: 434px;
+  left: 50%;
+  transform: translateX(50%);
+  border-radius: 35px;
+  background-color: #e6e6ff;
+  width: 277px;
+  height: 249px;
+}
+
+.tryConsultBtn {
+  position: absolute;
+  top: 623px;
+  left: 36.4%;
+  transform: translateX(-150%);
+  border-radius: 10px;
+  background-color: #fc7c4c;
+  width: 81px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.tryQuestBtn {
+  position: absolute;
+  top: 623px;
+  left: 62.8%;
+  transform: translateX(50%);
+  border-radius: 10px;
+  background-color: #fc7c4c;
+  width: 95px;
+  height: 36px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.mainConsultImg {
+  position: absolute;
+  top: 470px;
+  left: 48.2%;
+  transform: translateX(-150%);
+  width: 250px;
+}
+
+.mainQuestImg {
+  position: absolute;
+  top: 480px;
+  left: 55.1%;
+  transform: translateX(50%);
+  border-radius: 0.8px;
+  width: 200px;
+}
+
+.consultBorder {
+  position: absolute;
+  top: 438.5px;
+  left: 50%;
+  transform: translateX(-154.3%);
+  border-radius: 35px;
+  background-color: rgba(253, 245, 243, 0);
+  border: 7px solid #fff;
+  box-sizing: border-box;
+  width: 266px;
+  height: 239px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.questBorder {
+  position: absolute;
+  top: 438.5px;
+  left: 50.75%;
+  transform: translateX(50%);
+  border-radius: 35px;
+  background-color: rgba(253, 245, 243, 0);
+  border: 7px solid #fff;
+  box-sizing: border-box;
+  width: 266px;
+  height: 239px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.transparent {
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.opaque {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.glow {
+  box-shadow:
+    0 0 20px rgba(255, 255, 255, 0.8),
+    0 0 30px rgba(255, 255, 255, 0.6),
+    0 0 40px rgba(255, 255, 255, 0.4),
+    inset 0 0 10px rgba(255, 255, 255, 0.8),
+    inset 0 0 20px rgba(255, 255, 255, 0.6),
+    inset 0 0 30px rgba(255, 255, 255, 0.4);
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .mainImg {
+    width: 200px;
+    height: 200px;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .mainImg2 {
+    width: 200px;
+    height: 200px;
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .inner,
+  .consultBox,
+  .questBox,
+  .consultBorder,
+  .questBorder {
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .tryConsultBtn,
+  .tryQuestBtn {
+    top: auto;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .mainConsultImg,
+  .mainQuestImg {
+    top: auto;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    height: 64px;
+  }
+
+  .mainImg {
+    width: 150px;
+    height: 150px;
+  }
+
+  .mainImg2 {
+    width: 150px;
+    height: 150px;
+  }
+
+  .inner,
+  .consultBox,
+  .questBox,
+  .consultBorder,
+  .questBorder {
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .tryConsultBtn,
+  .tryQuestBtn,
+  .mainConsultImg,
+  .mainQuestImg {
+    width: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    height: 54px;
+    font-size: 12px;
+  }
+
+  .mainImg {
+    width: 120px;
+    height: 120px;
+  }
+
+  .mainImg2 {
+    width: 120px;
+    height: 120px;
+  }
+
+  .inner,
+  .consultBox,
+  .questBox,
+  .consultBorder,
+  .questBorder {
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .tryConsultBtn,
+  .tryQuestBtn,
+  .mainConsultImg,
+  .mainQuestImg {
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
