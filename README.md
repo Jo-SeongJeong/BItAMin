@@ -319,32 +319,32 @@ BITAMIN
 <tr>
 <td align="center" width="150px">
 <a href="[https://github.com/Jo-wonbin](https://github.com/Jo-wonbin)" target="_blank">
-<img src="[https://avatars.githubusercontent.com/u/78211128?v=4](https://avatars.githubusercontent.com/u/78211128?v=4)" alt="김수영 프로필" />
+<img src="https://avatars.githubusercontent.com/u/78211128?v=4" alt="김수영 프로필" />
 </a>
 </td>
 <td align="center" width="150px">
 <a href="[https://github.com/dudqo225](https://github.com/dudqo225)" target="_blank">
-<img src="[https://avatars.githubusercontent.com/u/78641259?v=4](https://avatars.githubusercontent.com/u/78641259?v=4)" alt="이소연 프로필" />
+<img src="https://avatars.githubusercontent.com/u/168151572?v=4" alt="이소연 프로필" />
 </a>
 </td>
 <td align="center" width="150px">
 <a href="[https://github.com/lshyunee](https://github.com/lshyunee)" target="_blank">
-<img src="[https://github.com/user-attachments/assets/cec7088b-a105-42c8-b598-8a5da3bfde8c](https://github.com/user-attachments/assets/cec7088b-a105-42c8-b598-8a5da3bfde8c)" alt="이수현 프로필" />
+<img src="https://github.com/user-attachments/assets/cec7088b-a105-42c8-b598-8a5da3bfde8c" alt="이수현 프로필" />
 </a>
 </td>
 <td align="center" width="150px">
 <a href="[https://github.com/jaejunlee11](https://github.com/jaejunlee11)" target="_blank">
-<img src="[https://avatars.githubusercontent.com/jaejunlee11](https://avatars.githubusercontent.com/jaejunlee11)" alt="이재준 프로필" />
+<img src="https://avatars.githubusercontent.com/jaejunlee11" alt="이재준 프로필" />
 </a>
 </td>
 <td align="center" width="150px">
 <a href="[https://github.com/Jo-SeongJeong](https://github.com/Jo-SeongJeong)" target="_blank">
-<img src="[https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fcbc2643a-7500-46c5-9dbf-320da0a5f838%2Fc1afac49-63c8-48aa-a2ca-6c97105270c3%2FKakaoTalk_20240819_202526412.jpg?table=block&id=6f069ce0-0379-4d61-9063-8d7f5e3f9453&spaceId=cbc2643a-7500-46c5-9dbf-320da0a5f838&width=2000&userId=19397782-be7c-441c-a9b4-e41ebc1ddf5e&cache=v2](https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2Fcbc2643a-7500-46c5-9dbf-320da0a5f838%2Fc1afac49-63c8-48aa-a2ca-6c97105270c3%2FKakaoTalk_20240819_202526412.jpg?table=block&id=6f069ce0-0379-4d61-9063-8d7f5e3f9453&spaceId=cbc2643a-7500-46c5-9dbf-320da0a5f838&width=2000&userId=19397782-be7c-441c-a9b4-e41ebc1ddf5e&cache=v2)" alt="조성정 프로필" />
+<img src="https://i.ibb.co/wYG8qwh/Kakao-Talk-20240820-145446412.jpg" alt="조성정 프로필" />
 </a>
 </td>
 <td align="center" width="150px">
 <a href="[https://github.com/limejin](https://github.com/limejin)" target="_blank">
-<img src="[https://avatars.githubusercontent.com/u/91420946?v=4](https://avatars.githubusercontent.com/u/91420946?v=4)" alt="최승탁 프로필" />
+<img src="https://avatars.githubusercontent.com/u/91420946?v=4" alt="최승탁 프로필" />
 </a>
 </td>
 </tr>
@@ -389,8 +389,4 @@ BITAMIN
 | 이소연 | Front-End |  - 로그인 ? <br />  - refreshToken accessToken<br /> - 회원가입 페이지 CSS 작업 <br /> - 로그인 페이지 CSS 작업<br /> - 마음상태 설문 점수에 따른 그래프, 결과 불러오기 <br />    - 카카오맵 API를 통한 사용자 주변 병원 추천하기<br />    - S3에 맞는 회원 사진 정보 저장하기<br /> - 마이페이지 CSS 작업 <br />    - TensorFlow, Teachable Machine을 활용한 머신 러닝 <br />    - 건강up 페이지 CSS 작업<br />    - 랜딩페이지 CSS 작업<br /> - 로그인 전 페이지 CSS 작업<br />                   |
 | 이재준 | Back-End | - Docker와 jenkins를 활용하여 CI/CD 파이프 라인 구축<br /> -  신고 도메인 개발<br /> - 쪽지 도메인 개발<br /> - 소셜 로그인 개발 |
 | 조성정 | Back-End | - DB 설계<br />- Spring Boot로 RESTful API 작성<br />    - OpenVidu Session 생성 서비스 도메인 개발<br />    - OpenVidu Token 생성 서비스 도메인 개발<br />    - 집단상담 생성/조회/삭제 서비스 도메인 개발<br />    - 집단상담  랜덤 참여 서비스 도메인 개발<br />    - 집단상담 참여 토큰 재생성 서비스 도메인 개발<br />    - 집단상담 AI 진행 서비스 도메인 개<br />    - 집단상담 AI 요약 서비스 도메인 개발<br />    - 실시간 채팅 저장 서비스 도메인 개발<br />    - 실시간 채팅 조회 서비스 도메인 개발<br />    - 집단 상담 최근 참여자 명단 조회 서비스 도메인 개발<br />    - 오래된 상담 삭제 스케줄링 서비스 도메인 개발<br />-STOMP를 이용한 실시간 채팅 서버 구현<br />    - 웹소켓 연결을 통한 집단상담 AI 진행 멘트 Broadcast<br />    - 웹소켓 헤더 인증을 위한 Interceptor 처리 구현<br />-FE : SocketJS를 이용한 실시간 AI 상담 진행 구현<br />    - 웹소켓 연결을 통한 집단상담 AI 진행 멘트 Broadcast<br />- 스프링 시큐리티, JWT를 이용한 인증 filter 구현<br />-Junit을 이용한 Testcode 작성<br />    - Mockito를 활용한 given-when-then 패턴 적용<br />    - 집단상담 서비스 도메인에 대한 Testcode 작성 |
-| 이수현 | Back-End / Front-End | ## Back-End<br />
-- DB 설계<br />    - 회원가입 도메인 개발<br />    - 로그인 도메인 개발 (Spring Security, JWT 활용)<br />- 비밀번호 재설정 도메인 개발<br />    - 회원 정보 조회 및 수정 도메인 개발<br />- 로그아웃 시 refresh token 만료 처리<br />    - 자가진단 기록 관리<br />    - 닉네임 및 이메일 중복 확인<br />- 시도, 구군, 동 리스트를 통한 동코드 조회<br />- 자가진단 리스트 조회 및 일주일간 기록 여부 확인<br />- 스프링 시큐리티, JWT를 이용한 인증 필터 구현<br />
-## Front-End<br />
-- 메인 페이지 CSS 작업<br />- 오늘의 문구 불러오기 구현 (Zustand를 활용한 상태 관리)<br />- 오늘의 문구 녹음하기<br />- 오늘의 문구 녹음 저장하기<br />- 미션 페이지 CSS 작업<br />- 오늘의 미션 불러오기 구현 (Zustand를 활용한 상태 관리)<br />- 오늘의 미션 교체하기 구현 (Zustand를 활용한 상태 관리)<br />- 미션 설명 불러오기 구현<br />- 한 달간의 미션 및 녹음 기록 가져오기 구현<br />- 선택한 날짜에 완료한 미션 및 녹음 기록 가져오기 구현<br />- 사용자 경험치 가져오기 구현<br />- 경험치에 따른 레벨 부여 및 레벨에 맞는 GIF 출력<br />- 날씨 API를 활용해 사용자의 현재 위치에 따른 날씨별 미션 페이지 배경 변경 (맑음, 비, 먹구름, 구름 많음, 눈 등)<br />- 경험치에 따른 레벨 부여 및 레벨에 맞는 GIF 출력<br />- 경험치에 따른 레벨 부여 및 레벨에 맞는 GIF 출력<br />
-## UCC 편집 |
+| 이수현 | Back-End<br />Front-End | ## Back-End<br />- DB 설계<br />    - 회원가입 도메인 개발<br />    - 로그인 도메인 개발 (Spring Security, JWT 활용)<br />- 비밀번호 재설정 도메인 개발<br />    - 회원 정보 조회 및 수정 도메인 개발<br />- 로그아웃 시 refresh token 만료 처리<br />    - 자가진단 기록 관리<br />    - 닉네임 및 이메일 중복 확인<br />- 시도, 구군, 동 리스트를 통한 동코드 조회<br />- 자가진단 리스트 조회 및 일주일간 기록 여부 확인<br />- 스프링 시큐리티, JWT를 이용한 인증 필터 구현<br />## Front-End<br />- 메인 페이지 CSS 작업<br />- 오늘의 문구 불러오기 구현 (Zustand를 활용한 상태 관리)<br />- 오늘의 문구 녹음하기<br />- 오늘의 문구 녹음 저장하기<br />- 미션 페이지 CSS 작업<br />- 오늘의 미션 불러오기 구현 (Zustand를 활용한 상태 관리)<br />- 오늘의 미션 교체하기 구현 (Zustand를 활용한 상태 관리)<br />- 미션 설명 불러오기 구현<br />- 한 달간의 미션 및 녹음 기록 가져오기 구현<br />- 선택한 날짜에 완료한 미션 및 녹음 기록 가져오기 구현<br />- 사용자 경험치 가져오기 구현<br />- 경험치에 따른 레벨 부여 및 레벨에 맞는 GIF 출력<br />- 날씨 API를 활용해 사용자의 현재 위치에 따른 날씨별 미션 페이지 배경 변경 (맑음, 비, 먹구름, 구름 많음, 눈 등)<br />- 경험치에 따른 레벨 부여 및 레벨에 맞는 GIF 출력<br />- 경험치에 따른 레벨 부여 및 레벨에 맞는 GIF 출력<br />
