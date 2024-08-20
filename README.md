@@ -318,64 +318,64 @@ BITAMIN
 <table>
 <tr>
 <td align="center" width="150px">
-<a href="[https://github.com/Jo-wonbin](https://github.com/Jo-wonbin)" target="_blank">
-<img src="https://avatars.githubusercontent.com/u/78211128?v=4" alt="김수영 프로필" />
+<a href="https://github.com/sootudio" target="_blank">
+<img src="https://avatars.githubusercontent.com/u/83462874?v=4" alt="김수영 프로필" />
 </a>
 </td>
 <td align="center" width="150px">
-<a href="[https://github.com/dudqo225](https://github.com/dudqo225)" target="_blank">
+<a href="https://github.com/lso401" target="_blank">
 <img src="https://avatars.githubusercontent.com/u/168151572?v=4" alt="이소연 프로필" />
 </a>
 </td>
 <td align="center" width="150px">
-<a href="[https://github.com/lshyunee](https://github.com/lshyunee)" target="_blank">
+<a href="https://github.com/lshyunee" target="_blank">
 <img src="https://github.com/user-attachments/assets/cec7088b-a105-42c8-b598-8a5da3bfde8c" alt="이수현 프로필" />
 </a>
 </td>
 <td align="center" width="150px">
-<a href="[https://github.com/jaejunlee11](https://github.com/jaejunlee11)" target="_blank">
+<a href="https://github.com/jaejunlee11" target="_blank">
 <img src="https://avatars.githubusercontent.com/jaejunlee11" alt="이재준 프로필" />
 </a>
 </td>
 <td align="center" width="150px">
-<a href="[https://github.com/Jo-SeongJeong](https://github.com/Jo-SeongJeong)" target="_blank">
+<a href="https://github.com/Jo-SeongJeong" target="_blank">
 <img src="https://i.ibb.co/wYG8qwh/Kakao-Talk-20240820-145446412.jpg" alt="조성정 프로필" />
 </a>
 </td>
 <td align="center" width="150px">
-<a href="[https://github.com/limejin](https://github.com/limejin)" target="_blank">
+<a href="https://github.com/player397" target="_blank">
 <img src="https://avatars.githubusercontent.com/u/91420946?v=4" alt="최승탁 프로필" />
 </a>
 </td>
 </tr>
 <tr>
 <td align="center">
-<a href="[https://github.com/Jo-wonbin](https://github.com/Jo-wonbin)" target="_blank">
+<a href="https://github.com/sootudio" target="_blank">
 김수영<br />(Back-End & 팀장)
 </a>
 </td>
 <td align="center">
-<a href="[https://github.com/dudqo225](https://github.com/dudqo225)" target="_blank">
+<a href="https://github.com/lso401" target="_blank">
 이소연<br />(Front-End)
 </a>
 </td>
 <td align="center">
-<a href="[https://github.com/lshyunee](https://github.com/lshyunee)" target="_blank">
+<a href="https://github.com/lshyunee" target="_blank">
 이수현<br />(Back-End & Front-End)
 </a>
 </td>
 <td align="center">
-<a href="[https://github.com/jaejunlee11](https://github.com/jaejunlee11)” target="_blank">
+<a href="https://github.com/jaejunlee11” target="_blank">
 이재준<br />(Back-End)
 </a>
 </td>
 <td align="center">
-<a href="[https://github.com/sojjeong](https://github.com/Jo-SeongJeong)" target="_blank">
+<a href="https://github.com/Jo-SeongJeong" target="_blank">
 조성정<br />(Back-End)
 </a>
 </td>
 <td align="center">
-<a href="[https://github.com/limejin](https://github.com/limejin)"  target="_blank">
+<a href="https://github.com/player397"  target="_blank">
 최승탁<br />(Front-End)
 </a>
 </td>
@@ -386,7 +386,7 @@ BITAMIN
 | --- | --- | --- |
 | 김수영 | Back-End<br />팀장 | - Docker와 jenkins를 활용하여 CI/CD 파이프 라인 구축<br />  - DB 설계<br />  - Spring Data JPA 세팅<br />   - 데일리 미션 도메인 개발 |
 | 최승탁 | Front-End | - DB 설계<br />- Spring Boot로 RESTful API 작성<br />    - 로그인 도메인 개발<br />    - 회원가입 도메인 개발<br />    - 아이디 찾기 도메인 개발<br />    - 비밀번호 재설정 도메인 개발<br />    - 회원 정보 조회 및 수정 도메인 개발<br />- SMTP Server, Redis를 이용한 이메일 인증 기능 구현<br />- 스프링 시큐리티, JWT를 이용한 인증 구현<br />- EC2 인프라 환경 세팅<br />- 프론트엔드, 백엔드 EC2 배포<br />- Github Action, Jenkins, Docker를 활용한 CI/CD<br />- Letsencrypt, Certbot을 이용한 서비스 SSL 보안 적용<br />- Nginx 웹서버 적용(Load Balancing, Reverse Proxy, Service Redirect 설정) |
-| 이소연 | Front-End |  - 로그인 ? <br />  - refreshToken accessToken<br /> - 회원가입 페이지 CSS 작업 <br /> - 로그인 페이지 CSS 작업<br /> - 마음상태 설문 점수에 따른 그래프, 결과 불러오기 <br />    - 카카오맵 API를 통한 사용자 주변 병원 추천하기<br />    - S3에 맞는 회원 사진 정보 저장하기<br /> - 마이페이지 CSS 작업 <br />    - TensorFlow, Teachable Machine을 활용한 머신 러닝 <br />    - 건강up 페이지 CSS 작업<br />    - 랜딩페이지 CSS 작업<br /> - 로그인 전 페이지 CSS 작업<br />                   |
+| 이소연 | Front-End |  - 로그인<br />  - refreshToken accessToken<br /> - 회원가입 페이지 CSS 작업 <br /> - 로그인 페이지 CSS 작업<br /> - 마음상태 설문 점수에 따른 그래프, 결과 불러오기 <br />    - 카카오맵 API를 통한 사용자 주변 병원 추천하기<br />    - S3에 맞는 회원 사진 정보 저장하기<br /> - 마이페이지 CSS 작업 <br />    - TensorFlow, Teachable Machine을 활용한 머신 러닝 <br />    - 건강up 페이지 CSS 작업<br />    - 랜딩페이지 CSS 작업<br /> - 로그인 전 페이지 CSS 작업 |
 | 이재준 | Back-End | - Docker와 jenkins를 활용하여 CI/CD 파이프 라인 구축<br /> -  신고 도메인 개발<br /> - 쪽지 도메인 개발<br /> - 소셜 로그인 개발 |
 | 조성정 | Back-End | - DB 설계<br />- Spring Boot로 RESTful API 작성<br />    - OpenVidu Session 생성 서비스 도메인 개발<br />    - OpenVidu Token 생성 서비스 도메인 개발<br />    - 집단상담 생성/조회/삭제 서비스 도메인 개발<br />    - 집단상담  랜덤 참여 서비스 도메인 개발<br />    - 집단상담 참여 토큰 재생성 서비스 도메인 개발<br />    - 집단상담 AI 진행 서비스 도메인 개<br />    - 집단상담 AI 요약 서비스 도메인 개발<br />    - 실시간 채팅 저장 서비스 도메인 개발<br />    - 실시간 채팅 조회 서비스 도메인 개발<br />    - 집단 상담 최근 참여자 명단 조회 서비스 도메인 개발<br />    - 오래된 상담 삭제 스케줄링 서비스 도메인 개발<br />-STOMP를 이용한 실시간 채팅 서버 구현<br />    - 웹소켓 연결을 통한 집단상담 AI 진행 멘트 Broadcast<br />    - 웹소켓 헤더 인증을 위한 Interceptor 처리 구현<br />-FE : SocketJS를 이용한 실시간 AI 상담 진행 구현<br />    - 웹소켓 연결을 통한 집단상담 AI 진행 멘트 Broadcast<br />- 스프링 시큐리티, JWT를 이용한 인증 filter 구현<br />-Junit을 이용한 Testcode 작성<br />    - Mockito를 활용한 given-when-then 패턴 적용<br />    - 집단상담 서비스 도메인에 대한 Testcode 작성 |
 | 이수현 | Back-End<br />Front-End | ## Back-End<br />- DB 설계<br />    - 회원가입 도메인 개발<br />    - 로그인 도메인 개발 (Spring Security, JWT 활용)<br />- 비밀번호 재설정 도메인 개발<br />    - 회원 정보 조회 및 수정 도메인 개발<br />- 로그아웃 시 refresh token 만료 처리<br />    - 자가진단 기록 관리<br />    - 닉네임 및 이메일 중복 확인<br />- 시도, 구군, 동 리스트를 통한 동코드 조회<br />- 자가진단 리스트 조회 및 일주일간 기록 여부 확인<br />- 스프링 시큐리티, JWT를 이용한 인증 필터 구현<br />## Front-End<br />- 메인 페이지 CSS 작업<br />- 오늘의 문구 불러오기 구현 (Zustand를 활용한 상태 관리)<br />- 오늘의 문구 녹음하기<br />- 오늘의 문구 녹음 저장하기<br />- 미션 페이지 CSS 작업<br />- 오늘의 미션 불러오기 구현 (Zustand를 활용한 상태 관리)<br />- 오늘의 미션 교체하기 구현 (Zustand를 활용한 상태 관리)<br />- 미션 설명 불러오기 구현<br />- 한 달간의 미션 및 녹음 기록 가져오기 구현<br />- 선택한 날짜에 완료한 미션 및 녹음 기록 가져오기 구현<br />- 사용자 경험치 가져오기 구현<br />- 경험치에 따른 레벨 부여 및 레벨에 맞는 GIF 출력<br />- 날씨 API를 활용해 사용자의 현재 위치에 따른 날씨별 미션 페이지 배경 변경 (맑음, 비, 먹구름, 구름 많음, 눈 등)<br />- 경험치에 따른 레벨 부여 및 레벨에 맞는 GIF 출력<br />- 경험치에 따른 레벨 부여 및 레벨에 맞는 GIF 출력<br />
