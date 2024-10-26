@@ -329,7 +329,7 @@ BITAMIN
 </td>
 <td align="center" width="150px">
 <a href="https://github.com/lshyunee" target="_blank">
-<img src="https://github.com/user-attachments/assets/cec7088b-a105-42c8-b598-8a5da3bfde8c" alt="이수현 프로필" />
+<img src="https://avatars.githubusercontent.com/lshyunee" alt="이수현 프로필" />
 </a>
 </td>
 <td align="center" width="150px">
